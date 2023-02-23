@@ -1,0 +1,2028 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Gameplay Mode",
+      "Elements": [
+        {
+          "Name": "IncludeDir7",
+          "DisplayName": "Stage pack",
+          "Description": [
+            "Select which Unleashed stage pack is you want to play in. REQUIRES CHOSEN PACK TO BE LOADED BELOW REIMAGINED."
+          ],
+          "Type": "StageEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Unleashed Project\\Unleashed Project\\"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Sonic Model",
+      "Elements": [
+        {
+          "Name": "IncludeDir8",
+          "DisplayName": "Encore Sonic",
+          "Description": [
+            "Choose to have Encore Sonic enabled. (REQUIRES DIRECT3D 11)"
+          ],
+          "Type": "ModelEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Character\\Sonic\\Encore\\"
+        },
+        {
+          "Name": "IncludeDir20",
+          "DisplayName": "Direct3D 9 Support",
+          "Description": [
+            "Enable D3D9ex support? Not needed when using D3D11."
+          ],
+          "Type": "DX9Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir19",
+          "DisplayName": "Integrated Physiscs",
+          "Description": [
+            "Choose between physics options."
+          ],
+          "Type": "PhysicsEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Encore Heads-Up Display",
+      "Elements": [
+        {
+          "Name": "IncludeDir9",
+          "DisplayName": "Encore HUD",
+          "Description": [
+            "Choose to have Encore HUD enabled along with the different HUD styles for different characters (REQUIRES SU HUD MOD!)"
+          ],
+          "Type": "HUDEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\HUD\\Common\\Sonic\\"
+        },
+        {
+          "Name": "IncludeDir10",
+          "DisplayName": "Encore Buttons",
+          "Description": [
+            "Choose to have Encore Buttons enabled (REQUIRES SU HUD MOD!)"
+          ],
+          "Type": "ButtonEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\HUD\\Buttons\\XBOX\\"
+        },
+        {
+          "Name": "IncludeDir11",
+          "DisplayName": "Loading PDA",
+          "Description": [
+            "Choose between three loading screen PDA colours"
+          ],
+          "Type": "LoadingEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\HUD\\Loading\\Orange\\"
+        },
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "Loading Background (Add-On)",
+          "Description": [
+            "Choose between custom loading screen backgrounds (Requires the Encore Loading Screens addon to be installed)"
+          ],
+          "Type": "BackgroundEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir12",
+          "DisplayName": "Title Screen",
+          "Description": [
+            "Enabled Reimagined title screen"
+          ],
+          "Type": "TitleEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Additional Content (UNLEASHED PROJECT MODE)",
+      "Elements": [
+        //{
+        //  "Name": "IncludeDir22",
+        //  "DisplayName": "Unleashed: Reimagined RTX Fix",
+        //  "Description": [
+        //    "Choose to enable the RTX Fix for Reimagined. This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+        //  ],
+        //  "Type": "UPRTXEnum",
+        //  "MinValue": null,
+        //  "MaxValue": null,
+        //  "DefaultValue": ".\\Unleashed Project\\Playable Menu\\"
+        //},
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Unleashed: Reimagined DX",
+          "Description": [
+            "Choose to enable Reimagined Deluxe. This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+          ],
+          "Type": "UPAdd1Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir2",
+          "DisplayName": "Unleashed: Reimagined Directors Cut",
+          "Description": [
+            "Choose to enable Unleashed: Reimagined - Directors Cut content. This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+          ],
+          "Type": "UPAdd2Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir3",
+          "DisplayName": "Unleashed Project: Encore",
+          "Description": [
+            "Choose to enable Unleashed: Encore Legacy Edition, the pre cursor to Unleashed: Reimagined. This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+          ],
+          "Type": "UPAdd3Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir4",
+          "DisplayName": "Jungle Joyride 1-2 Layout",
+          "Description": [
+            "Choose to enable the 1-2 set data from Sonic Unleashed's DLC. This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+          ],
+          "Type": "SetExAdabatEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir18",
+          "DisplayName": "Red Egg Fighters",
+          "Description": [
+            "Choose to enable Red variants of the Egg Fighters. This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+          ],
+          "Type": "UPEnemyEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Additional Content (ADVENTURE PACK MODE)",
+      "Elements": [
+        {
+          "Name": "IncludeDir5",
+          "DisplayName": "Adventure Pack EX",
+          "Description": [
+            "Choose to enable the RTX Fix for Reimagined. This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+          ],
+          "Type": "APAdd1Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Additional Content (EGGMANLAND MODE)",
+      "Elements": [
+        {
+          "Name": "IncludeDir21",
+          "DisplayName": "Tornado Defence",
+          "Description": [
+            "Choose between Tornado Defence varaints. This requires EggmanLand mode enabled and the EggmanLand mod loaded under this mod."
+          ],
+          "Type": "EGBAdd2Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir6",
+          "DisplayName": "EggmanLand Music",
+          "Description": [
+            "Choose between EggmanLand Reimagined day & night music. This requires EggmanLand mode enabled and the EggmanLand mod loaded under this mod."
+          ],
+          "Type": "EGBAdd1Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Backend Options",
+      "Elements": [
+        {
+          "Name": "IncludeDir13",
+          "DisplayName": "Additional Audio",
+          "Description": [
+            "Loads additional audio used in Adventure Packs"
+          ],
+          "Type": "AudioEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Audio\\Streamed\\"
+        },
+        {
+          "Name": "IncludeDir14",
+          "DisplayName": "Streamed Audio",
+          "Description": [
+            "Loads streamed audio used for level music"
+          ],
+          "Type": "RootEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "."
+        },
+        {
+          "Name": "IncludeDir15",
+          "DisplayName": "Reimagined Radio",
+          "Description": [
+            "Play the Reimagined Radio feat. the Reimagined Soundtrack"
+          ],
+          "Type": "RadioEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Custom Import Options",
+      "Elements": [
+        {
+          "Name": "IncludeDir16",
+          "DisplayName": "Custom Character",
+          "Description": [
+            "Load your imported custom character"
+          ],
+          "Type": "CharacterCustomEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir17",
+          "DisplayName": "Custom HUD",
+          "Description": [
+            "Load your imported custom HUD"
+          ],
+          "Type": "HUDCustomEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "StageEnum": [
+      {
+        "DisplayName": "Unleashed Project",
+        "Value": ".\\Unleashed Project\\Unleashed Project\\",
+        "Description": [
+          "Play Unleashed Project: Reimagined"
+        ]
+      },
+      {
+        "DisplayName": "Unleashed Project (Addon)",
+        "Value": ".\\Unleashed Project\\UPAddon\\",
+        "Description": [
+          "Play Unleashed Project: Reimagined with UP Addon integration"
+        ]
+      },
+      {
+        "DisplayName": "Unleashed Project Nightfall",
+        "Value": ".\\Unleashed Project\\Unleashed Project Nightfall\\",
+        "Description": [
+          "Play Unleashed Project: Reimagined Night Stages"
+        ]
+      },
+      {
+        "DisplayName": "Dragon Road Night",
+        "Value": ".\\Extra\\STGChinaEvil\\",
+        "Description": [
+          "Play through Reimagined Dragon Road Night Act 1"
+        ]
+      },
+      {
+        "DisplayName": "NYC Challenge Pack",
+        "Value": ".\\Extra\\PackNYC\\",
+        "Description": [
+          "Play through Reimagined NYC Challenge Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "EggmanLand Pack",
+        "Value": ".\\Extra\\STGEggmanLand\\",
+        "Description": [
+          "Play through Reimagined EggmanLand Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Adabat Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Adabat\\",
+        "Description": [
+          "Play through Reimagined Adabat Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Apotos Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Apotos\\",
+        "Description": [
+          "Play through Reimagined Apotos Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Chun-Nan Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\China\\",
+        "Description": [
+          "Play through Reimagined Chun-Nan Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Empire City Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Empire\\",
+        "Description": [
+          "Play through Reimagined Empire City Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Holoska Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Holoska\\",
+        "Description": [
+          "Play through Reimagined Holoska Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Mazuri Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Mazuri\\",
+        "Description": [
+          "Play through Reimagined Mazuri Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Shamar Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Shamar\\",
+        "Description": [
+          "Play through Reimagined Shamar Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Spagonia Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Spagonia\\",
+        "Description": [
+          "Play through Reimagined Spagonia Adventure Pack Stages"
+        ]
+      }
+    ],
+    "ModelEnum": [
+      {
+        "DisplayName": "Disable",
+        "Value": "Off",
+        "Description": [
+          "Disable Encore Sonic"
+        ]
+      },
+      {
+        "DisplayName": "Enable",
+        "Value": ".\\Character\\Sonic\\Encore\\",
+        "Description": [
+          "Enable Encore Sonic"
+        ]
+      },
+      {
+        "DisplayName": "Enable w/ Chip's Bracelet",
+        "Value": ".\\Character\\Sonic\\EncoreChip\\",
+        "Description": [
+          "Enable Encore Sonic with Chip's Bracelet"
+        ]
+      }
+    ],
+    "HUDEnum": [
+      {
+        "DisplayName": "Disable",
+        "Value": "Off",
+        "Description": [
+          "Disable Encore HUD completely"
+        ]
+      },
+      {
+        "DisplayName": "Sonic",
+        "Value": ".\\HUD\\Common\\Sonic\\",
+        "Description": [
+          "Use Encore HUD for Sonic"
+        ]
+      },
+      {
+        "DisplayName": "Super Sonic",
+        "Value": ".\\HUD\\Common\\SuperSonic\\",
+        "Description": [
+          "Use Encore HUD for Super Sonic"
+        ]
+      },
+      {
+        "DisplayName": "Metal Sonic",
+        "Value": ".\\HUD\\Common\\Metal\\",
+        "Description": [
+          "Use Encore HUD for Metal Sonic"
+        ]
+      },
+      {
+        "DisplayName": "Shadow",
+        "Value": ".\\HUD\\Common\\Shadow\\",
+        "Description": [
+          "Use Encore HUD for Shadow"
+        ]
+      },
+      {
+        "DisplayName": "Silver",
+        "Value": ".\\HUD\\Common\\Silver\\",
+        "Description": [
+          "Use Encore HUD for Silver"
+        ]
+      },
+      {
+        "DisplayName": "Blaze",
+        "Value": ".\\HUD\\Common\\Blaze\\",
+        "Description": [
+          "Use Encore HUD for Blaze"
+        ]
+      },
+      {
+        "DisplayName": "Amy",
+        "Value": ".\\HUD\\Common\\Amy\\",
+        "Description": [
+          "Use Encore HUD for Amy"
+        ]
+      },
+      {
+        "DisplayName": "Werehog",
+        "Value": ".\\HUD\\Common\\Werehog\\",
+        "Description": [
+          "Use Encore HUD for the Werehog"
+        ]
+      },
+      {
+        "DisplayName": "Knuckles",
+        "Value": ".\\HUD\\Common\\Knuckles\\",
+        "Description": [
+          "Use Encore HUD for Knuckles"
+        ]
+      }
+    ],
+    "ButtonEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable Encore Buttons"
+        ]
+      },
+      {
+        "DisplayName": "XBOX inspired",
+        "Value": ".\\HUD\\Buttons\\XBOX\\",
+        "Description": [
+          "XBOX variants of Dreamcast inspired buttons"
+        ]
+      },
+      {
+        "DisplayName": "Dreamcast faithful",
+        "Value": ".\\HUD\\Buttons\\Dreamcast\\",
+        "Description": [
+          "Dreamcast inspired buttons"
+        ]
+      }
+    ],
+    "LoadingEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable loading PDA"
+        ]
+      },
+      {
+        "DisplayName": "Orange",
+        "Value": ".\\HUD\\Loading\\Orange\\",
+        "Description": [
+          "Orange coloured loading screen"
+        ]
+      },
+      {
+        "DisplayName": "Red",
+        "Value": ".\\HUD\\Loading\\Red\\",
+        "Description": [
+          "Red coloured loading screen"
+        ]
+      },
+      {
+        "DisplayName": "Blue",
+        "Value": ".\\HUD\\Loading\\Blue\\",
+        "Description": [
+          "Blue coloured loading screen"
+        ]
+      },
+      {
+        "DisplayName": "Gamecube",
+        "Value": ".\\HUD\\Loading\\GCN\\",
+        "Description": [
+          "Gamecube loading screen variant"
+        ]
+      }
+    ],
+    "TitleEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable title screen"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\HUD\\Extra\\TitleScreen\\",
+        "Description": [
+          "Enable title screen"
+        ]
+      }
+    ],
+    "SetExAdabatEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Use base Reimagined layouts (Required for NON UNLEASHED PROJECT MODE'S)"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Extra\\SetExAdabat\\",
+        "Description": [
+          "Use Act 1-2 level layout (Act 1-2 AP)"
+        ]
+      }
+    ],
+    //"UPRTXEnum": [
+    //  {
+    //    "DisplayName": "Disabled",
+    //    "Value": ".\\Unleashed Project\\Playable Menu\\",
+    //    "Description": [
+    //      "Disabled RTX Fix"
+    //    ]
+    //  },
+    //  {
+    //    "DisplayName": "Enabled",
+    //    "Value": ".\\Unleashed Project\\Unleashed Reimagined RTX Fix\\",
+    //    "Description": [
+    //      "Enable Unleashed Project: Reimagined RTX Fix for people experiencing RTX issues"
+    //    ]
+    //  }
+    //],
+    "UPAdd1Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disabled additional options"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Unleashed Project\\UPDeluxe\\",
+        "Description": [
+          "Enable Unleashed Project: Reimagined DX with an all NEW Dragon Dusk"
+        ]
+      }
+    ],
+    "UPAdd2Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disabled additional options"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Unleashed Project\\UPDirectorsCut\\",
+        "Description": [
+          "Enable Unleashed Project: Reimagined - Directors Cut"
+        ]
+      }
+    ],
+    "UPAdd3Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disabled additional options"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Unleashed Project\\UPEncore\\",
+        "Description": [
+          "Enable Unleashed Project: Encore Legacy Edition featuring the early Windmill Isle & Dragon Dusk stages, also includes the original Jungle Joyride (Alternate Set Data will not work with this option)"
+        ]
+      }
+    ],
+    "APAdd1Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disabled additional options"
+        ]
+      },
+      {
+        "DisplayName": "Apotos Adventure Pack",
+        "Value": ".\\Adventure Pack\\Extended\\ApotosEX\\",
+        "Description": [
+          "Play through Reimagined Apotos Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Mazuri Adventure Pack",
+        "Value": ".\\Adventure Pack\\Extended\\MazuriEX\\",
+        "Description": [
+          "Play through Reimagined Mazuri Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Spagonia Adventure Pack",
+        "Value": ".\\Adventure Pack\\Extended\\SpagoniaEX\\",
+        "Description": [
+          "Play through Reimagined Spagonia Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Chun-Nan Adventure Pack",
+        "Value": ".\\Adventure Pack\\Extended\\ChinaEX\\",
+        "Description": [
+          "Play through Reimagined Chun-Nan Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Shamar Adventure Pack",
+        "Value": ".\\Adventure Pack\\Extended\\ShamarEX\\",
+        "Description": [
+          "Play through Reimagined Shamar Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Empire City Adventure Pack",
+        "Value": ".\\Adventure Pack\\Extended\\EmpireEX\\",
+        "Description": [
+          "Play through Reimagined Empire City Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Adabat Adventure Pack",
+        "Value": ".\\Adventure Pack\\Extended\\AdabatEX\\",
+        "Description": [
+          "Play through Reimagined Adabat Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Holoska Adventure Pack",
+        "Value": ".\\Adventure Pack\\Extended\\HoloskaEX\\",
+        "Description": [
+          "Play through Reimagined Holoska Adventure Pack Stages"
+        ]
+      }
+    ],
+    "EGBAdd1Enum": [
+      {
+        "DisplayName": "Day",
+        "Value": "Off",
+        "Description": [
+          "Use the day music (This is the default, use this option when playing other stage packs)"
+        ]
+      },
+      {
+        "DisplayName": "Night",
+        "Value": ".\\Extra\\SetEGBNight\\",
+        "Description": [
+          "Use the night music"
+        ]
+      }
+    ],
+    "EGBAdd2Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable custom Tornado Defence variants (This is the default, use this option when playing other stage packs)"
+        ]
+      },
+      {
+        "DisplayName": "Towards the Death Egg",
+        "Value": ".\\Extra\\Tornado Defence\\DEZ\\",
+        "Description": [
+          "Fly towards the Death Egg after it has launched from Little Planet"
+        ]
+      },
+      {
+        "DisplayName": "Towards Little Planet",
+        "Value": ".\\Extra\\Tornado Defence\\LPZ\\",
+        "Description": [
+          "Fly towards Little Planet to stop the Death Egg from launching"
+        ]
+      }
+    ],
+    "AudioEnum": [
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Audio\\Streamed\\",
+        "Description": [
+          "Do not touch these options"
+        ]
+      }
+    ],
+    "RootEnum": [
+      {
+        "DisplayName": "Enabled",
+        "Value": ".",
+        "Description": [
+          "Do not touch these options"
+        ]
+      }
+    ],
+    "RadioEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disabled the Reimagined Radio"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Audio\\Radio\\",
+        "Description": [
+          "Enable the Reimagined Radio"
+        ]
+      }
+    ],
+    "CharacterCustomEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable the custom imported character option"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Character\\Custom\\Archive\\",
+        "Description": [
+          "Enable the custom imported character option"
+        ]
+      }
+    ],
+    "HUDCustomEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable the custom imported HUD option"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\HUD\\Extra\\Custom\\HUD\\",
+        "Description": [
+          "Enable the custom imported HUD option"
+        ]
+      }
+    ],
+    "UPEnemyEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable Red Egg Fighters"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Extra\\Unleashed Project\\Enemies\\Red Egg Fighter\\",
+        "Description": [
+          "Enable Red Egg Fighters"
+        ]
+      }
+    ],
+    "PhysicsEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable integrated physics options (Use for base Generations physics & other mods)"
+        ]
+      },
+      {
+        "DisplayName": "Unleashed",
+        "Value": ".\\Extra\\Physics\\Unleashed\\",
+        "Description": [
+          "Enable Unleashed physics"
+        ]
+      },
+      {
+        "DisplayName": "Redux",
+        "Value": ".\\Extra\\Physics\\Redux\\",
+        "Description": [
+          "Enable Redux physics"
+        ]
+      }
+    ],
+    "DX9Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable D3D9 support"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Character\\Sonic\\Encore\\d3d9\\",
+        "Description": [
+          "Enable D3D9 support"
+        ]
+      }
+    ],
+    "BackgroundEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable addtional custom loading screens"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Unleashed Project",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Unleashed Project\\Core\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Unleashed Project (Reimagined Deluxe)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Unleashed Project\\Deluxe\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Unleashed Project (Reimagined Directors Cut)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Unleashed Project\\DirectorsCut\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Unleashed Project (UP: Encore)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Unleashed Project\\Encore\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Unleashed Project Nightfall",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Unleashed Project\\Nightfall\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Dragon Road Night Act 1",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Additional\\China Evil\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - New York Challenge Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Additional\\NYC Challenge Pack\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - EggmanLand Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Additional\\EggmanLand\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Tornado Defence (Death Egg)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Additional\\Tornado Defence\\Death Egg\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Tornado Defence (Little Planet)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Additional\\Tornado Defence\\Little Planet\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Adventure Pack (Apotos)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Adventure Pack\\Adabat\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Adventure Pack (Adabat)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Adventure Pack\\Apotos\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Adventure Pack (Chun-Nan)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Adventure Pack\\China\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Adventure Pack (Empire City)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Adventure Pack\\Empire\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Adventure Pack (Holoska)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Adventure Pack\\Holoska\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Adventure Pack (Mazuri)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Adventure Pack\\Mazuri\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Adventure Pack (Shamar)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Adventure Pack\\Shamar\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Sonic) - Adventure Pack (Spagonia)",
+        "Value": ".\\HUD\\Background\\Encore\\Sonic\\Adventure Pack\\Spagonia\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Unleashed Project",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Unleashed Project\\Core\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Unleashed Project (Reimagined Deluxe)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Unleashed Project\\Deluxe\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Unleashed Project (Reimagined Directors Cut)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Unleashed Project\\DirectorsCut\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Unleashed Project (UP: Encore)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Unleashed Project\\Encore\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Unleashed Project Nightfall",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Unleashed Project\\Nightfall\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Dragon Road Night Act 1",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Additional\\China Evil\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - New York Challenge Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Additional\\NYC Challenge Pack\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - EggmanLand Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Additional\\EggmanLand\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Tornado Defence (Death Egg)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Additional\\Tornado Defence\\Death Egg\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Tornado Defence (Little Planet)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Additional\\Tornado Defence\\Little Planet\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Adventure Pack (Apotos)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Adventure Pack\\Adabat\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Adventure Pack (Adabat)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Adventure Pack\\Apotos\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Adventure Pack (Chun-Nan)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Adventure Pack\\China\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Adventure Pack (Empire City)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Adventure Pack\\Empire\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Adventure Pack (Holoska)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Adventure Pack\\Holoska\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Adventure Pack (Mazuri)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Adventure Pack\\Mazuri\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Adventure Pack (Shamar)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Adventure Pack\\Shamar\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Super Sonic) - Adventure Pack (Spagonia)",
+        "Value": ".\\HUD\\Background\\Encore\\Super Sonic\\Adventure Pack\\Spagonia\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Super Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Unleashed Project",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Unleashed Project\\Core\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Unleashed Project (Reimagined Deluxe)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Unleashed Project\\Deluxe\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Unleashed Project (Reimagined Directors Cut)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Unleashed Project\\DirectorsCut\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Unleashed Project (UP: Encore)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Unleashed Project\\Encore\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Unleashed Project Nightfall",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Unleashed Project\\Nightfall\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Dragon Road Night Act 1",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Additional\\China Evil\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - New York Challenge Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Additional\\NYC Challenge Pack\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - EggmanLand Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Additional\\EggmanLand\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Tornado Defence (Death Egg)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Additional\\Tornado Defence\\Death Egg\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Tornado Defence (Little Planet)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Additional\\Tornado Defence\\Little Planet\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Adventure Pack (Apotos)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Adventure Pack\\Adabat\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Adventure Pack (Adabat)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Adventure Pack\\Apotos\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Adventure Pack (Chun-Nan)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Adventure Pack\\China\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Adventure Pack (Empire City)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Adventure Pack\\Empire\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Adventure Pack (Holoska)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Adventure Pack\\Holoska\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Adventure Pack (Mazuri)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Adventure Pack\\Mazuri\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Adventure Pack (Shamar)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Adventure Pack\\Shamar\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Metal Sonic) - Adventure Pack (Spagonia)",
+        "Value": ".\\HUD\\Background\\Encore\\Metal Sonic\\Adventure Pack\\Spagonia\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Metal Sonic Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Unleashed Project",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Unleashed Project\\Core\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Unleashed Project (Reimagined Deluxe)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Unleashed Project\\Deluxe\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Unleashed Project (Reimagined Directors Cut)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Unleashed Project\\DirectorsCut\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Unleashed Project (UP: Encore)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Unleashed Project\\Encore\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Unleashed Project Nightfall",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Unleashed Project\\Nightfall\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Dragon Road Night Act 1",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Additional\\China Evil\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - New York Challenge Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Additional\\NYC Challenge Pack\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - EggmanLand Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Additional\\EggmanLand\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Tornado Defence (Death Egg)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Additional\\Tornado Defence\\Death Egg\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Tornado Defence (Little Planet)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Additional\\Tornado Defence\\Little Planet\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Adventure Pack (Apotos)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Adventure Pack\\Adabat\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Adventure Pack (Adabat)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Adventure Pack\\Apotos\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Adventure Pack (Chun-Nan)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Adventure Pack\\China\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Adventure Pack (Empire City)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Adventure Pack\\Empire\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Adventure Pack (Holoska)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Adventure Pack\\Holoska\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Adventure Pack (Mazuri)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Adventure Pack\\Mazuri\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Adventure Pack (Shamar)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Adventure Pack\\Shamar\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Shadow) - Adventure Pack (Spagonia)",
+        "Value": ".\\HUD\\Background\\Encore\\Shadow\\Adventure Pack\\Spagonia\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Shadow Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Unleashed Project",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Unleashed Project\\Core\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Unleashed Project (Reimagined Deluxe)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Unleashed Project\\Deluxe\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Unleashed Project (Reimagined Directors Cut)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Unleashed Project\\DirectorsCut\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Unleashed Project (UP: Encore)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Unleashed Project\\Encore\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Unleashed Project Nightfall",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Unleashed Project\\Nightfall\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Dragon Road Night Act 1",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Additional\\China Evil\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - New York Challenge Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Additional\\NYC Challenge Pack\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - EggmanLand Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Additional\\EggmanLand\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Tornado Defence (Death Egg)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Additional\\Tornado Defence\\Death Egg\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Tornado Defence (Little Planet)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Additional\\Tornado Defence\\Little Planet\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Adventure Pack (Apotos)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Adventure Pack\\Adabat\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Adventure Pack (Adabat)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Adventure Pack\\Apotos\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Adventure Pack (Chun-Nan)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Adventure Pack\\China\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Adventure Pack (Empire City)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Adventure Pack\\Empire\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Adventure Pack (Holoska)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Adventure Pack\\Holoska\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Adventure Pack (Mazuri)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Adventure Pack\\Mazuri\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Adventure Pack (Shamar)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Adventure Pack\\Shamar\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Silver) - Adventure Pack (Spagonia)",
+        "Value": ".\\HUD\\Background\\Encore\\Silver\\Adventure Pack\\Spagonia\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Silver Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Unleashed Project",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Unleashed Project\\Core\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Unleashed Project (Reimagined Deluxe)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Unleashed Project\\Deluxe\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Unleashed Project (Reimagined Directors Cut)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Unleashed Project\\DirectorsCut\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Unleashed Project (UP: Encore)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Unleashed Project\\Encore\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Unleashed Project Nightfall",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Unleashed Project\\Nightfall\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Dragon Road Night Act 1",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Additional\\China Evil\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - New York Challenge Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Additional\\NYC Challenge Pack\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - EggmanLand Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Additional\\EggmanLand\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Tornado Defence (Death Egg)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Additional\\Tornado Defence\\Death Egg\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Tornado Defence (Little Planet)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Additional\\Tornado Defence\\Little Planet\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Adventure Pack (Apotos)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Adventure Pack\\Adabat\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Adventure Pack (Adabat)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Adventure Pack\\Apotos\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Adventure Pack (Chun-Nan)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Adventure Pack\\China\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Adventure Pack (Empire City)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Adventure Pack\\Empire\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Adventure Pack (Holoska)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Adventure Pack\\Holoska\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Adventure Pack (Mazuri)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Adventure Pack\\Mazuri\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Adventure Pack (Shamar)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Adventure Pack\\Shamar\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Blaze) - Adventure Pack (Spagonia)",
+        "Value": ".\\HUD\\Background\\Encore\\Blaze\\Adventure Pack\\Spagonia\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Blaze Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Unleashed Project",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Unleashed Project\\Core\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Unleashed Project (Reimagined Deluxe)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Unleashed Project\\Deluxe\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Unleashed Project (Reimagined Directors Cut)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Unleashed Project\\DirectorsCut\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Unleashed Project (UP: Encore)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Unleashed Project\\Encore\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Unleashed Project Nightfall",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Unleashed Project\\Nightfall\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Dragon Road Night Act 1",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Additional\\China Evil\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - New York Challenge Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Additional\\NYC Challenge Pack\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - EggmanLand Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Additional\\EggmanLand\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Tornado Defence (Death Egg)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Additional\\Tornado Defence\\Death Egg\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Tornado Defence (Little Planet)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Additional\\Tornado Defence\\Little Planet\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Adventure Pack (Apotos)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Adventure Pack\\Adabat\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Adventure Pack (Adabat)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Adventure Pack\\Apotos\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Adventure Pack (Chun-Nan)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Adventure Pack\\China\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Adventure Pack (Empire City)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Adventure Pack\\Empire\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Adventure Pack (Holoska)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Adventure Pack\\Holoska\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Adventure Pack (Mazuri)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Adventure Pack\\Mazuri\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Adventure Pack (Shamar)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Adventure Pack\\Shamar\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Amy) - Adventure Pack (Spagonia)",
+        "Value": ".\\HUD\\Background\\Encore\\Amy\\Adventure Pack\\Spagonia\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Amy Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Unleashed Project",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Unleashed Project\\Core\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Unleashed Project (Reimagined Deluxe)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Unleashed Project\\Deluxe\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Unleashed Project (Reimagined Directors Cut)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Unleashed Project\\DirectorsCut\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Unleashed Project (UP: Encore)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Unleashed Project\\Encore\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Unleashed Project Nightfall",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Unleashed Project\\Nightfall\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Dragon Road Night Act 1",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Additional\\China Evil\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - New York Challenge Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Additional\\NYC Challenge Pack\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - EggmanLand Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Additional\\EggmanLand\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Tornado Defence (Death Egg)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Additional\\Tornado Defence\\Death Egg\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Tornado Defence (Little Planet)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Additional\\Tornado Defence\\Little Planet\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Adventure Pack (Apotos)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Adventure Pack\\Adabat\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Adventure Pack (Adabat)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Adventure Pack\\Apotos\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Adventure Pack (Chun-Nan)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Adventure Pack\\China\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Adventure Pack (Empire City)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Adventure Pack\\Empire\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Adventure Pack (Holoska)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Adventure Pack\\Holoska\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Adventure Pack (Mazuri)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Adventure Pack\\Mazuri\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Adventure Pack (Shamar)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Adventure Pack\\Shamar\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Werehog) - Adventure Pack (Spagonia)",
+        "Value": ".\\HUD\\Background\\Encore\\Werehog\\Adventure Pack\\Spagonia\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Werehog Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Unleashed Project",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Unleashed Project\\Core\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Unleashed Project (Reimagined Deluxe)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Unleashed Project\\Deluxe\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Unleashed Project (Reimagined Directors Cut)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Unleashed Project\\DirectorsCut\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Unleashed Project (UP: Encore)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Unleashed Project\\Encore\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Unleashed Project Nightfall",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Unleashed Project\\Nightfall\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Dragon Road Night Act 1",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Additional\\China Evil\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - New York Challenge Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Additional\\NYC Challenge Pack\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - EggmanLand Pack",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Additional\\EggmanLand\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Tornado Defence (Death Egg)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Additional\\Tornado Defence\\Death Egg\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Tornado Defence (Little Planet)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Additional\\Tornado Defence\\Little Planet\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Adventure Pack (Apotos)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Adventure Pack\\Adabat\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Adventure Pack (Adabat)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Adventure Pack\\Apotos\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Adventure Pack (Chun-Nan)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Adventure Pack\\China\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Adventure Pack (Empire City)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Adventure Pack\\Empire\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Adventure Pack (Holoska)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Adventure Pack\\Holoska\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Adventure Pack (Mazuri)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Adventure Pack\\Mazuri\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Adventure Pack (Shamar)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Adventure Pack\\Shamar\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      },
+      {
+        "DisplayName": "(Encore: Knuckles) - Adventure Pack (Spagonia)",
+        "Value": ".\\HUD\\Background\\Encore\\Knuckles\\Adventure Pack\\Spagonia\\",
+        "Description": [
+          "Enable Encore versions of the loading screens as seen in Knuckles Unleashed: Reimagined for Xenia"
+        ]
+      }
+    ]
+
+  },
+  "IniFile": "mod.ini"
+}
