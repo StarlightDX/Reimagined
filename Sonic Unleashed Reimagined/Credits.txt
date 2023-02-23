@@ -1,0 +1,143 @@
+Extra Credits
+
+Team Encore changes.
+
+---
+Adabat Adventure Pack
+
+ItsHelias94 - Main developer and the team leader.
+YT - http://www.youtube.com/user/MrHelias94
+Deviantart - http://itshelias94.deviantart.com/
+
+Sonic SCANF - One of the best Russian Sonic communities
+Website - http://en.sonicscanf.org/news/
+YT - http://www.youtube.com/user/sonicscanfru
+Twitter (RU) - http://twitter.com/sonicscanf
+Twitter (EN) - http://twitter.com/sonicscanf-en
+
+---
+
+---
+Chun-Nan Adventure Pack
+
+TiManXD - Layout design, Night Hub-World, Sounds fixer in HubWorld, Material fixer, lua scripts, fco files, NPC, Skill shop, Visual editing, Ranking System, Save file, Release Trailer.
+https://www.youtube.com/user/TiManXDTheModder
+
+
+N69 - Levels port, Help and big hints, Music port, Act 5 layout, Unleashed Rainbow Rings, Hammer Port, Rolling Ball recreate.
+https://www.youtube.com/user/N69vid
+
+Unleashed Team (Dario FF, TwilightZoney, Chimera) - This mod use some cmn files from Unleashed Project, China Rocket animations.
+http://www.moddb.com/mods/sonic-generations-unleashed-project
+http://www.youtube.com/user/samothethief
+http://www.youtube.com/twilightzoney
+http://www.youtube.com/ChimeraReiax
+
+---
+
+---
+Empire City Adventure Pack
+
+N69 - Main Author, level port, layout design
+http://www.youtube.com/user/N69vid
+https://twitter.com/NSixtyNine
+
+Team Unleashed (Dario FF, TwilightZoney, Chimera) - This mod use some parts, ideas from Unleashed Project
+http://www.moddb.com/mods/sonic-generations-unleashed-project
+http://www.youtube.com/user/samothethief
+http://www.youtube.com/twilightzoney
+http://www.youtube.com/ChimeraReiax
+
+---
+
+---
+Holoska Adventure Pack
+
+N69 - Main Author, level port, layout design, lua scripts, engine hacks
+http://www.youtube.com/user/N69vid
+
+Team Unleashed (Dario FF, TwilightZoney, Chimera) - This mod use some parts, ideas from Unleashed Project
+http://www.moddb.com/mods/sonic-generations-unleashed-project
+http://www.youtube.com/user/samothethief
+http://www.youtube.com/twilightzoney
+http://www.youtube.com/ChimeraReiax
+
+---
+
+---
+Shamar Adventure Pack
+
+TiManXD: The original author who gave the entire control for this update.
+YouTube: https://www.youtube.com/user/TiManXDTheModder
+
+Unleashed Project team: some enemies were borrowed from Unleashed Project for Act 1 and 1-2.
+http://www.youtube.com/user/samothethief
+http://www.youtube.com/twilightzoney
+http://www.youtube.com/ChimeraReiax
+  
+---
+Spagonia Adventure Pack
+
+N69 - Main Author, level port, layout design
+http://www.youtube.com/user/N69vid
+
+Team Unleashed (Dario FF, TwilightZoney, Chimera) - This mod use some parts, ideas from Unleashed Project
+http://www.moddb.com/mods/sonic-generations-unleashed-project
+http://www.youtube.com/user/samothethief
+http://www.youtube.com/twilightzoney
+http://www.youtube.com/ChimeraReiax
+
+---
+Empire City Challenge Pack
+
+GoalRingMod27 - Author, level port, layout design.
+https://www.youtube.com/@Goalringmod27
+
+Video linking to download:
+https://www.youtube.com/watch?v=3mIdB7h1iVc
+
+---
+Dragon Road Act 1 (Night)
+
+Ali Alhakeem - Author, level port, layout design.
+https://www.youtube.com/@Ali_Alhakeem
+
+Video linking to download:
+https://www.youtube.com/watch?v=ROvFlgFn3sw
+
+Additional authors: Team Unleashed
+http://www.youtube.com/user/samothethief
+http://www.youtube.com/twilightzoney
+http://www.youtube.com/ChimeraReiax
+
+---
+
+2.5.0
+
+All songs used in Reimagined Radio.
+
+Silent Dreams:
+Tornado Defence track: Doomsday Zone Remix
+
+Vineshroom:
+Looping Sonic Guitars: White Jungle Cover
+
+Sonic Guitars:
+White Jungle Cover
+
+Locomotivesss:
+Files for SU Resorations support.
+
+-[DEXTERITY]-:
+Dragon Dusk variant two.
+Improved sceneeffect of various stages.
+Redux Physics.
+
+GoalRingMod27 
+New York Challenge Pack.
+
+Ali Alhakeem
+Dragon Road Act 1.
+
+HyperBE32
+Helped me write the dll for Sonic Unleashed: Reimagined.
