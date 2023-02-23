@@ -1,0 +1,3 @@
+add ConfigSchema.json
+add Unleashed Reimagined.dll
+add mod.ini
