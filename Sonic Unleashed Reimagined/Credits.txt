@@ -109,35 +109,3 @@ Additional authors: Team Unleashed
 http://www.youtube.com/user/samothethief
 http://www.youtube.com/twilightzoney
 http://www.youtube.com/ChimeraReiax
-
----
-
-2.5.0
-
-All songs used in Reimagined Radio.
-
-Silent Dreams:
-Tornado Defence track: Doomsday Zone Remix
-
-Vineshroom:
-Looping Sonic Guitars: White Jungle Cover
-
-Sonic Guitars:
-White Jungle Cover
-
-Locomotivesss:
-Files for SU Resorations support.
-
--[DEXTERITY]-:
-Dragon Dusk variant two.
-Improved sceneeffect of various stages.
-Redux Physics.
-
-GoalRingMod27 
-New York Challenge Pack.
-
-Ali Alhakeem
-Dragon Road Act 1.
-
-HyperBE32
-Helped me write the dll for Sonic Unleashed: Reimagined.

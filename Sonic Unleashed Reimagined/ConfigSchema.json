@@ -311,20 +311,20 @@
           "Play Unleashed Project: Reimagined"
         ]
       },
-      {
-        "DisplayName": "Unleashed Project (Addon)",
-        "Value": ".\\Unleashed Project\\UPAddon\\",
-        "Description": [
-          "Play Unleashed Project: Reimagined with UP Addon integration"
-        ]
-      },
-      {
-        "DisplayName": "Unleashed Project Nightfall",
-        "Value": ".\\Unleashed Project\\Unleashed Project Nightfall\\",
-        "Description": [
-          "Play Unleashed Project: Reimagined Night Stages"
-        ]
-      },
+      //{
+      //  "DisplayName": "Unleashed Project (Addon)",
+      //  "Value": ".\\Unleashed Project\\UPAddon\\",
+      //  "Description": [
+      //    "Play Unleashed Project: Reimagined with UP Addon integration"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Unleashed Project Nightfall",
+      //  "Value": ".\\Unleashed Project\\Unleashed Project Nightfall\\",
+      //  "Description": [
+      //    "Play Unleashed Project: Reimagined Night Stages"
+      //  ]
+      //},
       {
         "DisplayName": "Dragon Road Night",
         "Value": ".\\Extra\\STGChinaEvil\\",
@@ -565,14 +565,14 @@
         "Description": [
           "Disable title screen"
         ]
-      },
-      {
-        "DisplayName": "Enabled",
-        "Value": ".\\HUD\\Extra\\TitleScreen\\",
-        "Description": [
-          "Enable title screen"
-        ]
       }
+      //{
+      //  "DisplayName": "Enabled",
+      //  "Value": ".\\HUD\\Extra\\TitleScreen\\",
+      //  "Description": [
+      //    "Enable title screen"
+      //  ]
+      //}
     ],
     "SetExAdabatEnum": [
       {
@@ -629,14 +629,14 @@
         "Description": [
           "Disabled additional options"
         ]
-      },
-      {
-        "DisplayName": "Enabled",
-        "Value": ".\\Unleashed Project\\UPDirectorsCut\\",
-        "Description": [
-          "Enable Unleashed Project: Reimagined - Directors Cut"
-        ]
       }
+      //{
+      //  "DisplayName": "Enabled",
+      //  "Value": ".\\Unleashed Project\\UPDirectorsCut\\",
+      //  "Description": [
+      //    "Enable Unleashed Project: Reimagined - Directors Cut"
+      //  ]
+      //}
     ],
     "UPAdd3Enum": [
       {
@@ -661,63 +661,63 @@
         "Description": [
           "Disabled additional options"
         ]
-      },
-      {
-        "DisplayName": "Apotos Adventure Pack",
-        "Value": ".\\Adventure Pack\\Extended\\ApotosEX\\",
-        "Description": [
-          "Play through Reimagined Apotos Adventure Pack Stages"
-        ]
-      },
-      {
-        "DisplayName": "Mazuri Adventure Pack",
-        "Value": ".\\Adventure Pack\\Extended\\MazuriEX\\",
-        "Description": [
-          "Play through Reimagined Mazuri Adventure Pack Stages"
-        ]
-      },
-      {
-        "DisplayName": "Spagonia Adventure Pack",
-        "Value": ".\\Adventure Pack\\Extended\\SpagoniaEX\\",
-        "Description": [
-          "Play through Reimagined Spagonia Adventure Pack Stages"
-        ]
-      },
-      {
-        "DisplayName": "Chun-Nan Adventure Pack",
-        "Value": ".\\Adventure Pack\\Extended\\ChinaEX\\",
-        "Description": [
-          "Play through Reimagined Chun-Nan Adventure Pack Stages"
-        ]
-      },
-      {
-        "DisplayName": "Shamar Adventure Pack",
-        "Value": ".\\Adventure Pack\\Extended\\ShamarEX\\",
-        "Description": [
-          "Play through Reimagined Shamar Adventure Pack Stages"
-        ]
-      },
-      {
-        "DisplayName": "Empire City Adventure Pack",
-        "Value": ".\\Adventure Pack\\Extended\\EmpireEX\\",
-        "Description": [
-          "Play through Reimagined Empire City Adventure Pack Stages"
-        ]
-      },
-      {
-        "DisplayName": "Adabat Adventure Pack",
-        "Value": ".\\Adventure Pack\\Extended\\AdabatEX\\",
-        "Description": [
-          "Play through Reimagined Adabat Adventure Pack Stages"
-        ]
-      },
-      {
-        "DisplayName": "Holoska Adventure Pack",
-        "Value": ".\\Adventure Pack\\Extended\\HoloskaEX\\",
-        "Description": [
-          "Play through Reimagined Holoska Adventure Pack Stages"
-        ]
       }
+      //{
+      //  "DisplayName": "Apotos Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\ApotosEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Apotos Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Mazuri Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\MazuriEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Mazuri Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Spagonia Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\SpagoniaEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Spagonia Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Chun-Nan Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\ChinaEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Chun-Nan Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Shamar Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\ShamarEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Shamar Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Empire City Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\EmpireEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Empire City Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Adabat Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\AdabatEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Adabat Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Holoska Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\HoloskaEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Holoska Adventure Pack Stages"
+      //  ]
+      //}
     ],
     "EGBAdd1Enum": [
       {
@@ -870,14 +870,14 @@
         "Description": [
           "Disable D3D9 support"
         ]
-      },
-      {
-        "DisplayName": "Enabled",
-        "Value": ".\\Character\\Sonic\\Encore\\d3d9\\",
-        "Description": [
-          "Enable D3D9 support"
-        ]
       }
+      //{
+      //  "DisplayName": "Enabled",
+      //  "Value": ".\\Character\\Sonic\\Encore\\d3d9\\",
+      //  "Description": [
+      //    "Enable D3D9 support"
+      //  ]
+      //}
     ],
     "BackgroundEnum": [
       {
