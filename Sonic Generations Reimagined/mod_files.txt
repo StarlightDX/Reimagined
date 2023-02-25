@@ -1,5 +1,3 @@
-add Sound/SNG16_BNE.cpk
-add Sound/SNG16_BNE.csb
 add ConfigSchema.json
 add codes.hmm
 add mod.ini
