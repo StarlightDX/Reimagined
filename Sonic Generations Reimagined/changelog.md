@@ -1,3 +1,6 @@
+## Update 2.4.1
+-Fixed Perfect Chaos skybox.
+
 ## Update 2.4
 -Added Speed Highway Reimagined.
 

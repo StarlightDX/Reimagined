@@ -24,5 +24,7 @@ add disk/bb2/LoadingCustom.arl
 add disk/bb2/StageGate.ar.00
 add disk/bb2/StageGate.ar.01
 add disk/bb2/StageGate.arl
+delete disk/bb/bpc.ar.00
+delete disk/bb/bpc.arl
 add codes.hmm
 add mod.ini
