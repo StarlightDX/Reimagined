@@ -1,5 +1,0 @@
-Patch "Disable Fast Music" by "Hyper"
-WriteNop(0xE2E30F, 2);
-
-Patch "Disable High Speed Music" by "Hyper"
-WriteProtected<byte>(0x111B66D, 0xE9, 0x3A, 0x02, 0x00, 0x00);
