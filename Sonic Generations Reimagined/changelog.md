@@ -1,3 +1,6 @@
+## Update 2.4.3
+-Master build bug related to hard mode bosses.
+
 ## Update 2.4.2
 -Fixed Perfect Chaos skybox.
 

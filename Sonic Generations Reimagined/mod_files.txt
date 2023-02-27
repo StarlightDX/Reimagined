@@ -1,3 +1,15 @@
+add disk/bb/#bde001.ar.00
+add disk/bb/#bde001.arl
+add disk/bb/#blb001.ar.00
+add disk/bb/#blb001.arl
+add disk/bb/#bne001.ar.00
+add disk/bb/#bne001.arl
+add disk/bb2/#bms001.ar.00
+add disk/bb2/#bms001.arl
+add disk/bb2/#bsd001.ar.00
+add disk/bb2/#bsd001.arl
+add disk/bb2/#bsl001.ar.00
+add disk/bb2/#bsl001.arl
 add disk/bb/#bpc.ar.00
 add disk/bb/#bpc.arl
 add disk/bb/#sph100.ar.00
