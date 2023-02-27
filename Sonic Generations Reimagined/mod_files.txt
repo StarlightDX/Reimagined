@@ -16,5 +16,13 @@ add disk/bb/Packed/sph200/sph200.ar.03
 add disk/bb/Packed/sph200/sph200.ar.04
 add disk/bb/Packed/sph200/sph200.ar.05
 add disk/bb/Packed/sph200/sph200.arl
+add disk/bb2/LoadingCustom.ar.00
+add disk/bb2/LoadingCustom.ar.01
+add disk/bb2/LoadingCustom.ar.02
+add disk/bb2/LoadingCustom.ar.03
+add disk/bb2/LoadingCustom.arl
+add disk/bb2/StageGate.ar.00
+add disk/bb2/StageGate.ar.01
+add disk/bb2/StageGate.arl
 add codes.hmm
 add mod.ini
