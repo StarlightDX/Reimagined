@@ -1,3 +1,7 @@
+add disk/bb2/Languages/English/bxx_cmn.ar.00
+add disk/bb2/Languages/English/bxx_cmn.arl
+add disk/bb2/Languages/English/pam000.ar.00
+add disk/bb2/Languages/English/pam000.arl
 add disk/bb/#bde001.ar.00
 add disk/bb/#bde001.arl
 add disk/bb/#blb001.ar.00
