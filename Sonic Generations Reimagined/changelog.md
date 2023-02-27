@@ -1,8 +1,5 @@
 ## Update 2.4
 -Added Speed Highway Reimagined.
--This update covers Act 1 & Act 2.
--Updated StageGate images.
--Updated SU Hud loading screen support for Speed Highway.
 
 ## Update 2.3
 -Hotfix
