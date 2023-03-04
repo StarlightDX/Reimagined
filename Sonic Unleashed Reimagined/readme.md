@@ -26,3 +26,5 @@ Act 1-2 doesn't have music & fails to load Reimagined assets.
 //Spagonia Adventure Pack
 
 Act 2-2 doesn't load Reimagined textures
+
+If you have any fixes please reach out!
