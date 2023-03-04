@@ -1,0 +1,182 @@
+{
+   "Groups":[
+      {
+         "Name":"Main",
+         "DisplayName":"Configuration",
+        "Elements": [
+          {
+            "Name": "IncludeDir0",
+            "DisplayName": "Encore HUD Character Variant",
+            "Description": [
+              "Choose between different HUD styles for different characters"
+            ],
+            "Type": "CharacterEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "Sonic"
+          },
+          {
+            "Name": "IncludeDir1",
+            "DisplayName": "Encore Buttons",
+            "Description": [
+              "Choose between different Button styles"
+            ],
+            "Type": "ButtonEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "Sonic"
+          },
+          {
+            "Name": "IncludeDir2",
+            "DisplayName": "Loading PDA",
+            "Description": [
+              "Choose between three loading screen PDA colours"
+            ],
+            "Type": "LoadingEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "LoadingOrange"
+          }
+
+        ]
+      }
+   ],
+  "Enums": {
+    "CharacterEnum": [
+      {
+        "DisplayName": "Sonic",
+        "Value": "Sonic",
+        "Description": [
+          "Use HUD for Sonic"
+        ]
+      },
+      {
+        "DisplayName": "Super Sonic",
+        "Value": "SuperSonic",
+        "Description": [
+          "Use HUD for Super Sonic"
+        ]
+      },
+      {
+        "DisplayName": "Metal Sonic",
+        "Value": "Metal",
+        "Description": [
+          "Use HUD for Metal Sonic"
+        ]
+      },
+      {
+        "DisplayName": "Shadow",
+        "Value": "Shadow",
+        "Description": [
+          "Use HUD for Shadow"
+        ]
+      },
+      {
+        "DisplayName": "Silver",
+        "Value": "Silver",
+        "Description": [
+          "Use HUD for Silver"
+        ]
+      },
+      {
+        "DisplayName": "Blaze",
+        "Value": "Blaze",
+        "Description": [
+          "Use HUD for Blaze"
+        ]
+      },
+      {
+        "DisplayName": "Amy",
+        "Value": "Amy",
+        "Description": [
+          "Use HUD for Amy"
+        ]
+      },
+      {
+        "DisplayName": "Werehog",
+        "Value": "Werehog",
+        "Description": [
+          "Use Encore HUD for the Werehog"
+        ]
+      },
+      {
+        "DisplayName": "Knuckles",
+        "Value": "Knuckles",
+        "Description": [
+          "Use Encore HUD for Knuckles"
+        ]
+      },
+      {
+        "DisplayName": "Sticks (bonus)",
+        "Value": "Sticks",
+        "Description": [
+          "Use Encore HUD for Sticks"
+        ]
+      }
+
+    ],
+    "ButtonEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable Encore Buttons"
+        ]
+      },
+      {
+        "DisplayName": "XBOX inspired",
+        "Value": "ButtonsXBOX",
+        "Description": [
+          "XBOX variants of Dreamcast inspired buttons"
+        ]
+      },
+      {
+        "DisplayName": "Dreamcast faithful",
+        "Value": "ButtonsDC",
+        "Description": [
+          "Dreamcast inspired buttons"
+        ]
+      }
+
+    ],
+    "LoadingEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable loading PDA"
+        ]
+      },
+      {
+        "DisplayName": "Orange",
+        "Value": "LoadingOrange",
+        "Description": [
+          "Orange coloured loading screen"
+        ]
+      },
+      {
+        "DisplayName": "Red",
+        "Value": "LoadingRed",
+        "Description": [
+          "Red coloured loading screen"
+        ]
+      },
+      {
+        "DisplayName": "Blue",
+        "Value": "LoadingBlue",
+        "Description": [
+          "Blue coloured loading screen"
+        ]
+      },
+      {
+        "DisplayName": "Gamecube",
+        "Value": "LoadingGCN",
+        "Description": [
+          "Gamecube loading screen variant"
+        ]
+      }
+    ]
+
+  },
+   "IniFile":"mod.ini"
+}

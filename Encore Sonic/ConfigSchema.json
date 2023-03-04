@@ -1,0 +1,75 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Encore Sonic Configuration",
+      "Elements": [
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "Encore Sonic",
+          "Description": [
+            "Choose what version of Encore Sonic to have enabled"
+          ],
+          "Type": "ModelEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "disk_default"
+        },
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Skins",
+          "Description": [
+            "Choose between various skins"
+          ],
+          "Type": "ShoeEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "ModelEnum": [
+      {
+        "DisplayName": "Default",
+        "Value": "disk_default",
+        "Description": [
+          "Encore Sonic"
+        ]
+      },
+      {
+        "DisplayName": "Chip Bracelet",
+        "Value": "disk_chip",
+        "Description": [
+          "Encore Sonic with Chip's Bracelet"
+        ]
+      }
+    ],
+    "ShoeEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disabled shoe skins"
+        ]
+      },
+      //{
+      //  "DisplayName": "LGBTQ shoes",
+      //  "Value": ".\\Skin\\Shoes\\LGBTQ\\",
+      //  "Description": [
+      //    "Encore Sonic LGBTQ shoes"
+      //  ]
+      //},
+      {
+        "DisplayName": "Trans shoes",
+        "Value": ".\\Skin\\Shoes\\Trans\\",
+        "Description": [
+          "Encore Sonic with trans shoes"
+        ]
+      }
+    ]
+
+  },
+   "IniFile":"mod.ini"
+}

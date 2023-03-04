@@ -1,0 +1,2 @@
+add Config.json
+add mod.ini

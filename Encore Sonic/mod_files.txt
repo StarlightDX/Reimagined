@@ -1,0 +1,3 @@
+add ConfigSchema.json
+add Encore Sonic.dll
+add mod.ini
