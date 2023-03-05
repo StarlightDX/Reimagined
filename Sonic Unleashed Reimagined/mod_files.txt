@@ -1,3 +1,21 @@
+add /HUD/Common/Amy/disk/bb3/SonicUI.ar.00
+add /HUD/Common/Amy/disk/bb3/SonicUI.arl
+add /HUD/Common/Blaze/disk/bb3/SonicUI.ar.00
+add /HUD/Common/Blaze/disk/bb3/SonicUI.arl
+add /HUD/Common/Knuckles/disk/bb3/SonicUI.ar.00
+add /HUD/Common/Knuckles/disk/bb3/SonicUI.arl
+add /HUD/Common/Metal/disk/bb3/SonicUI.ar.00
+add /HUD/Common/Metal/disk/bb3/SonicUI.arl
+add /HUD/Common/Shadow/disk/bb3/SonicUI.ar.00
+add /HUD/Common/Shadow/disk/bb3/SonicUI.arl
+add /HUD/Common/Silver/disk/bb3/SonicUI.ar.00
+add /HUD/Common/Silver/disk/bb3/SonicUI.arl
+add /HUD/Common/Sonic/disk/bb3/SonicUI.ar.00
+add /HUD/Common/Sonic/disk/bb3/SonicUI.arl
+add /HUD/Common/SuperSonic/disk/bb3/SonicUI.ar.00
+add /HUD/Common/SuperSonic/disk/bb3/SonicUI.arl
+add /HUD/Common/Werehog/disk/bb3/SonicUI.ar.00
+add /HUD/Common/Werehog/disk/bb3/SonicUI.arl
 add ConfigSchema.json
 add Unleashed Reimagined.dll
 add codes.hmm
