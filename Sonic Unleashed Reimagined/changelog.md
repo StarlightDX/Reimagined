@@ -1,4 +1,4 @@
-## Encore HUD (2.5.3)
+## Encore HUD (2.5.4)
 - Added character variant support for SU Restorations "EXP" hud element.
 
 ## Test Update (2.4+)
