@@ -1,3 +1,7 @@
+## Update 2.6
+- Added Reimagined Chemical Plant.
+- This concludes Sonic Generations: Reimagined's main development.
+
 ## Update 2.5
 - Added Generations: Reimagined HUD.
 - Added Reimagined Perfect Chaos boss fight.
