@@ -1,3 +1,6 @@
+## Update 3.0.1
+- Fixed a bug in Chemical Port that prevented the rising chemicals from rendering.
+
 ## Update 3.0
 - Swapped out Reimagined Chemical Plant for a cloudy version.
 - Check out the Reimagined addons for the og version.
