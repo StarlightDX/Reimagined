@@ -1,7 +1,7 @@
-## Encore HUD (2.7)
+## Encore Sonic customisability (2.7)
 - Added Encore Shoe variants from the main Encore Sonic build.
 
-## Encore HUD (2.6)
+## Encore Sonic (2.6)
 - Removed Encore Sonic DX9 support.
 
 ## Encore HUD (2.5.5)
