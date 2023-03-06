@@ -34,11 +34,11 @@
         },
         {
           "Name": "IncludeDir20",
-          "DisplayName": "Unsupported Option",
+          "DisplayName": "Encore Skins",
           "Description": [
-            "This feature has been dropped."
+            "Choose from a range of Shoe skins for Sonic."
           ],
-          "Type": "DX9Enum",
+          "Type": "ShoeEnum",
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": "Off"
@@ -863,22 +863,45 @@
         ]
       }
     ],
-    "DX9Enum": [
+    "ShoeEnum": [
       {
         "DisplayName": "Disabled",
         "Value": "Off",
         "Description": [
-          "Disable D3D9 support"
+          "Disabled shoe skins"
+        ]
+      },
+      {
+        "DisplayName": "LGBTQ shoes",
+        "Value": ".\\Character\\Sonic\\EncoreSkins\\Shoes\\LGBTQ\\",
+        "Description": [
+          "Encore Sonic LGBTQ shoes"
+        ]
+      },
+      {
+        "DisplayName": "Trans shoes",
+        "Value": ".\\Character\\Sonic\\EncoreSkins\\Shoes\\Trans\\",
+        "Description": [
+          "Encore Sonic with trans shoes"
         ]
       }
-      //{
-      //  "DisplayName": "Enabled",
-      //  "Value": ".\\Character\\Sonic\\Encore\\d3d9\\",
-      //  "Description": [
-      //    "Enable D3D9 support"
-      //  ]
-      //}
     ],
+    //"DX9Enum": [
+    //  {
+    //    "DisplayName": "Disabled",
+    //    "Value": "Off",
+    //    "Description": [
+    //      "Disable D3D9 support"
+    //    ]
+    //  }
+    //  {
+    //    "DisplayName": "Enabled",
+    //    "Value": ".\\Character\\Sonic\\Encore\\d3d9\\",
+    //    "Description": [
+    //      "Enable D3D9 support"
+    //    ]
+    //  }
+    //],
     "BackgroundEnum": [
       {
         "DisplayName": "Disabled",
