@@ -1,3 +1,7 @@
+## Update 3.0
+- Swapped out Reimagined Chemical Plant for a cloudy version.
+- Check out the Reimagined addons for the og version.
+
 ## Update 2.6
 - Added Reimagined Chemical Plant.
 - This concludes Sonic Generations: Reimagined's main development.
