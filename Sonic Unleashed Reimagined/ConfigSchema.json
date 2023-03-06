@@ -34,9 +34,9 @@
         },
         {
           "Name": "IncludeDir20",
-          "DisplayName": "Direct3D 9 Support",
+          "DisplayName": "Unsupported Option",
           "Description": [
-            "Enable D3D9ex support? Not needed when using D3D11."
+            "This feature has been dropped."
           ],
           "Type": "DX9Enum",
           "MinValue": null,
