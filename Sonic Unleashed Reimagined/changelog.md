@@ -1,4 +1,4 @@
-## Encore HUD (2.5.6)
+## Encore HUD (2.6)
 - Removed Encore Sonic DX9 support.
 
 ## Encore HUD (2.5.5)
