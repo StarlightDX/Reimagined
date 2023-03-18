@@ -1,3 +1,6 @@
+## Update 3.1
+- Bonus update: Replace Rooftop Resort with Rooftop Ruins.
+
 ## Update 3.0.1
 - Fixed a bug in Chemical Port that prevented the rising chemicals from rendering.
 
