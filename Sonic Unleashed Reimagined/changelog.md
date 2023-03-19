@@ -1,3 +1,8 @@
+## Encore Sonic customisability (3.1)
+- Fixed a bug in Rooftop Ruins.
+- Fixed a bug with Encore Sonic's Soap Shoe variant.
+- UPDATE 3.0 FOR SONIC UNLEASHED: REIMAGINED IS REQUIRED FOR THIS UPDATE, DOWNLOAD FROM GAMEBANANA AND TRY AGAIN.
+
 ## Encore Sonic customisability (2.7)
 - Added Encore Shoe variants from the main Encore Sonic build.
 
