@@ -1,3 +1,6 @@
+## Update 3.1.1
+- Fixed Audio volumes.
+
 ## Update 3.1
 - Bonus update: Replace Rooftop Resort with Rooftop Ruins.
 
