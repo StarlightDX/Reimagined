@@ -36,9 +36,20 @@
           "Name": "IncludeDir20",
           "DisplayName": "Encore Skins",
           "Description": [
-            "Choose from a range of Shoe skins for Sonic."
+            "Choose from a range of Skins for Sonic."
           ],
-          "Type": "ShoeEnum",
+          "Type": "SkinEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir22",
+          "DisplayName": "Encore Effects",
+          "Description": [
+            "Choose from a range of Effects for Sonic."
+          ],
+          "Type": "EffectEnum",
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": "Off"
@@ -197,7 +208,7 @@
           "Name": "IncludeDir5",
           "DisplayName": "Adventure Pack EX",
           "Description": [
-            "Choose to enable the RTX Fix for Reimagined. This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+            "Choose to enable extentions to the Adventure Packs for Reimagined. This requires the same Adventure Pack mode enabled and loaded under this mod."
           ],
           "Type": "APAdd1Enum",
           "MinValue": null,
@@ -319,6 +330,13 @@
       //  ]
       //},
       //{
+      //  "DisplayName": "Unwiished Project",
+      //  "Value": ".\\Unleashed Project\\Unleashed Project Wii\\",
+      //  "Description": [
+      //    "Play Unwiished Project: Reimagined/Sonic World Tour Stages"
+      //  ]
+      //},
+      //{
       //  "DisplayName": "Unleashed Project Nightfall",
       //  "Value": ".\\Unleashed Project\\Unleashed Project Nightfall\\",
       //  "Description": [
@@ -402,10 +420,80 @@
           "Play through Reimagined Spagonia Adventure Pack Stages"
         ]
       }
+      //{
+      //  "DisplayName": "Sonic Unleashed: Encore",
+      //  "Value": ".\\Extra\\Unleashed Encore\\Remake\\Unleashed\\",
+      //  "Description": [
+      //    "Play Sonic Unleashed: Encore Stages (Requires Enemy Trigger)"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Unwiished Project: Encore",
+      //  "Value": ".\\Unleashed Project\\UPEncoreWii\\",
+      //  "Description": [
+      //    "Play Unwiished Project: Encore Stages"
+      //  ]
+      //}
+      //{
+      //  "DisplayName": "SU Encore: Adabat",
+      //  "Value": ".\\Extra\\Unleashed Encore\\Remake\\Adabat\\",
+      //  "Description": [
+      //    "Play Adventure Pack: Encore Adabat Stages (Requires Enemy Trigger)"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "SU Encore: Apotos",
+      //  "Value": ".\\Extra\\Unleashed Encore\\Remake\\Apotos\\",
+      //  "Description": [
+      //    "Play Adventure Pack: Encore Apotos Stages (Requires Enemy Trigger)"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "SU Encore: Chun-Nan",
+      //  "Value": ".\\Extra\\Unleashed Encore\\Remake\\China\\",
+      //  "Description": [
+      //    "Play Adventure Pack: Encore Chun-Nan Stages (Requires Enemy Trigger)"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "SU Encore: Empire City",
+      //  "Value": ".\\Extra\\Unleashed Encore\\Remake\\Empire\\",
+      //  "Description": [
+      //    "Play Adventure Pack: Encore Empire City Stages (Requires Enemy Trigger)"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "SU Encore: Holoska",
+      //  "Value": ".\\Extra\\Unleashed Encore\\Remake\\Holoska\\",
+      //  "Description": [
+      //    "Play Adventure Pack: Encore Holoska Stages (Requires Enemy Trigger)"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "SU Encore: Mazuri",
+      //  "Value": ".\\Extra\\Unleashed Encore\\Remake\\Mazuri\\",
+      //  "Description": [
+      //    "Play Adventure Pack: Encore Mazuri Stages (Requires Enemy Trigger)"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "SU Encore: Shamar",
+      //  "Value": ".\\Extra\\Unleashed Encore\\Remake\\Shamar\\",
+      //  "Description": [
+      //    "Play Adventure Pack: Encore Shamar Stages (Requires Enemy Trigger)"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "SU Encore: Spagonia",
+      //  "Value": ".\\Extra\\Unleashed Encore\\Remake\\Spagonia\\",
+      //  "Description": [
+      //    "Play Adventure Pack: Encore Spagonia Stages (Requires Enemy Trigger)"
+      //  ]
+      //}
     ],
     "ModelEnum": [
       {
-        "DisplayName": "Disable",
+        "DisplayName": "Disabled",
         "Value": "Off",
         "Description": [
           "Disable Encore Sonic"
@@ -419,8 +507,15 @@
         ]
       },
       {
+        "DisplayName": "Enable w/ Soap Shoes",
+        "Value": ".\\Character\\Sonic\\EncoreAccessories\\EncoreSoap\\",
+        "Description": [
+          "Enable Encore Sonic with Soap Shoes"
+        ]
+      },
+      {
         "DisplayName": "Enable w/ Chip's Bracelet",
-        "Value": ".\\Character\\Sonic\\EncoreChip\\",
+        "Value": ".\\Character\\Sonic\\EncoreAccessories\\EncoreChip\\",
         "Description": [
           "Enable Encore Sonic with Chip's Bracelet"
         ]
@@ -629,14 +724,14 @@
         "Description": [
           "Disabled additional options"
         ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Unleashed Project\\UPDirectorsCut\\",
+        "Description": [
+          "Enable Unleashed Project: Reimagined - Directors Cut"
+        ]
       }
-      //{
-      //  "DisplayName": "Enabled",
-      //  "Value": ".\\Unleashed Project\\UPDirectorsCut\\",
-      //  "Description": [
-      //    "Enable Unleashed Project: Reimagined - Directors Cut"
-      //  ]
-      //}
     ],
     "UPAdd3Enum": [
       {
@@ -661,7 +756,7 @@
         "Description": [
           "Disabled additional options"
         ]
-      }
+      },
       //{
       //  "DisplayName": "Apotos Adventure Pack",
       //  "Value": ".\\Adventure Pack\\Extended\\ApotosEX\\",
@@ -676,13 +771,13 @@
       //    "Play through Reimagined Mazuri Adventure Pack Stages"
       //  ]
       //},
-      //{
-      //  "DisplayName": "Spagonia Adventure Pack",
-      //  "Value": ".\\Adventure Pack\\Extended\\SpagoniaEX\\",
-      //  "Description": [
-      //    "Play through Reimagined Spagonia Adventure Pack Stages"
-      //  ]
-      //},
+      {
+        "DisplayName": "Spagonia Adventure Pack",
+        "Value": ".\\Adventure Pack\\Extended\\SpagoniaEX\\",
+        "Description": [
+          "Play through Reimagined Spagonia Adventure Pack Stages"
+        ]
+      }
       //{
       //  "DisplayName": "Chun-Nan Adventure Pack",
       //  "Value": ".\\Adventure Pack\\Extended\\ChinaEX\\",
@@ -863,26 +958,35 @@
         ]
       }
     ],
-    "ShoeEnum": [
+    "SkinEnum": [
       {
         "DisplayName": "Disabled",
         "Value": "Off",
         "Description": [
-          "Disabled shoe skins"
+          "Disabled Skins"
         ]
       },
       {
         "DisplayName": "LGBTQ shoes",
         "Value": ".\\Character\\Sonic\\EncoreSkins\\Shoes\\LGBTQ\\",
         "Description": [
-          "Encore Sonic LGBTQ shoes"
+          "Encore Sonic LGBTQ Pride Shoes"
         ]
       },
       {
         "DisplayName": "Trans shoes",
         "Value": ".\\Character\\Sonic\\EncoreSkins\\Shoes\\Trans\\",
         "Description": [
-          "Encore Sonic with trans shoes"
+          "Encore Sonic with Trans Pride Shoes"
+        ]
+      }
+    ],
+    "EffectEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disabled Effects"
         ]
       }
     ],
