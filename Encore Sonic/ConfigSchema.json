@@ -2,29 +2,79 @@
   "Groups": [
     {
       "Name": "Main",
-      "DisplayName": "Encore Sonic Configuration",
+      "DisplayName": "Encore Sonic Customisation",
       "Elements": [
         {
-          "Name": "IncludeDir0",
-          "DisplayName": "Encore Sonic",
+          "Name": "IncludeDir4",
+          "DisplayName": "Accessories",
           "Description": [
-            "Choose what version of Encore Sonic to have enabled"
+            "Choose to have accessories enabled"
           ],
           "Type": "ModelEnum",
           "MinValue": null,
           "MaxValue": null,
-          "DefaultValue": "disk_default"
+          "DefaultValue": "Unused"
+        },
+        {
+          "Name": "IncludeDir3",
+          "DisplayName": "Board Variants",
+          "Description": [
+            "Choose between various customisable board skins for City Escape etc."
+          ],
+          "Type": "BoardEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Unused"
+        },
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "Shoe Skins",
+          "Description": [
+            "Choose between various customisable shoe skins. (may not work with certain Accessories)"
+          ],
+          "Type": "Skin1Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Unused"
         },
         {
           "Name": "IncludeDir1",
-          "DisplayName": "Skins",
+          "DisplayName": "Additional Outfits & Gear Skins",
           "Description": [
-            "Choose between various skins"
+            "Choose between various customisable skins mainly for upper body clothing, gear etc. (may not work with certain Accessories)"
           ],
-          "Type": "ShoeEnum",
+          "Type": "Skin2Enum",
           "MinValue": null,
           "MaxValue": null,
-          "DefaultValue": "Off"
+          "DefaultValue": "Unused"
+        },
+        {
+          "Name": "IncludeDir2",
+          "DisplayName": "Effects",
+          "Description": [
+            "Choose between various customisable effects"
+          ],
+          "Type": "EffectEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Unused"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Main Install",
+      "Elements": [
+        {
+          "Name": "IncludeDir5",
+          "DisplayName": "Encore Sonic",
+          "Description": [
+            "Loads main files"
+          ],
+          "Type": "LoadEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Main"
         }
       ]
     }
@@ -32,40 +82,305 @@
   "Enums": {
     "ModelEnum": [
       {
-        "DisplayName": "Default",
-        "Value": "disk_default",
+        "DisplayName": "Disabled",
+        "Value": "Unused",
         "Description": [
-          "Encore Sonic"
+          "Disable Accessories"
         ]
       },
       {
-        "DisplayName": "Chip Bracelet",
-        "Value": "disk_chip",
+        "DisplayName": "Lightspeed Ring",
+        "Value": ".\\Additional\\\\Model\\diskette\\adventure\\",
         "Description": [
-          "Encore Sonic with Chip's Bracelet"
+          "(Sonic Adventure) I wonder why you don't need this anymore in newer games?"
         ]
-      }
-    ],
-    "ShoeEnum": [
+      },
       {
-        "DisplayName": "Disabled",
-        "Value": "Off",
+        "DisplayName": "Soap Shoes",
+        "Value": ".\\Additional\\Model\\dlc\\dlccrm\\",
         "Description": [
-          "Disabled shoe skins"
+          "(Sonic Adventure 2) Take it back to the early 2000s and railgrind in style with your own pair of iconic shoes from Sonic Adventure 2!"
         ]
       },
       //{
-      //  "DisplayName": "LGBTQ shoes",
-      //  "Value": ".\\Skin\\Shoes\\LGBTQ\\",
+      //  "DisplayName": "Shadow Blaster",
+      //  "Value": ".\\Additional\\Model\\diskette\\shadow05\\",
       //  "Description": [
-      //    "Encore Sonic LGBTQ shoes"
+      //    "(Shadow the Hedgehog) Sonic with a Black Arms Blaster"
       //  ]
       //},
       {
-        "DisplayName": "Trans shoes",
-        "Value": ".\\Skin\\Shoes\\Trans\\",
+        "DisplayName": "06 Shoes",
+        "Value": ".\\Additional\\Model\\diskette\\sonic06\\",
         "Description": [
-          "Encore Sonic with trans shoes"
+          "(Sonic the Hedgehog) The best shoe design ever - Iulian 2023"
+        ]
+      },
+      //{
+      //  "DisplayName": "Secret Rings Pack",
+      //  "Value": ".\\Additional\\Model\\diskette\\wildfire\\",
+      //  "Description": [
+      //    "(Sonic & the Secret Rings) Secret Ring & Darkspine ability"
+      //  ]
+      //},
+      {
+        "DisplayName": "Chip Bracelet",
+        "Value": ".\\Additional\\Model\\diskette\\chip bracelet\\",
+        "Description": [
+          "(Sonic Unleashed) Remember Light Gaia with the Chip Bracelet"
+        ]
+      },
+      //{
+      //  "DisplayName": "Black Knight Pack",
+      //  "Value": ".\\Additional\\Model\\diskette\\blackknight\\",
+      //  "Description": [
+      //    "(Sonic & the Black Knight) Caliburn & True Excalibur"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Boom",
+      //  "Value": ".\\Additional\\Model\\diskette\\boom\\",
+      //  "Description": [
+      //    "(Sonic Boom) (PLACEHOLDER)"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Forces",
+      //  "Value": ".\\Additional\\Model\\diskette\\forces\\",
+      //  "Description": [
+      //    "(Sonic Forces) (PLACEHOLDER)"
+      //  ]
+      //},
+      {
+        "DisplayName": "Archie Shoes",
+        "Value": ".\\Additional\\Model\\diskette\\archie\\",
+        "Description": [
+          "(Sonic Comics) Play Encore Sonic with his debut Archie Shoes"
+        ]
+      },
+      //{
+      //  "DisplayName": "AiAi",
+      //  "Value": ".\\Additional\\Model\\wars\\sf aiai\\",
+      //  "Description": [
+      //    "(Sonic Forces) Play Encore Sonic with aiai",
+      //    "Requires the Forces add-on pack 2 to be installed!"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Amitie",
+      //  "Value": ".\\Additional\\Model\\wars\\sf amitie\\",
+      //  "Description": [
+      //    "(Sonic Forces) Play Encore Sonic with amitie",
+      //    "Requires the Forces add-on pack 2 to be installed!"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Beat",
+      //  "Value": ".\\Additional\\Model\\wars\\sf beat\\",
+      //  "Description": [
+      //    "(Sonic Forces) Play Encore Sonic with beat",
+      //    "Requires the Forces add-on pack 2 to be installed!"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "NiGHTS",
+      //  "Value": ".\\Additional\\Model\\wars\\sf nights\\",
+      //  "Description": [
+      //    "(Sonic Forces) NiGHTS into Dreams outfit",
+      //    "Requires the Forces add-on pack 2 to be installed!"
+      //  ]
+      //},
+      {
+        "DisplayName": "Faker Outfit",
+        "Value": ".\\Additional\\Model\\wars\\sf outfitshadow\\",
+        "Description": [
+          "(Sonic Forces) I found you, faker!!",
+          "Requires the Forces add-on pack 1 to be installed!"
+        ]
+      },
+      //{
+      //  "DisplayName": "Persona 5",
+      //  "Value": ".\\Additional\\Model\\wars\\sf persona\\",
+      //  "Description": [
+      //    "(Sonic Forces) Joker? I'm Sonic",
+      //    "Requires the Forces add-on 2 pack to be installed!"
+      //  ]
+      //},
+      {
+        "DisplayName": "Sanic T-Shirt",
+        "Value": ".\\Additional\\Model\\wars\\sf sanic\\",
+        "Description": [
+          "(Sonic Forces) Ur 2 sloe! Has 2 extra variants",
+          "Requires the Forces add-on pack 1 to be installed!"
+        ]
+      },
+      {
+        "DisplayName": "Adventurer's Gloves & Shoes",
+        "Value": ".\\Additional\\Model\\dlc\\dlcddx\\",
+        "Description": [
+          "(Sonic Frontiers) Adventurer's Treasure Box clothing",
+          "Requires the Frontiers add-on pack 1 to be installed!"
+        ]
+      },
+      //{
+      //  "DisplayName": "Inugami Korone Collaboration",
+      //  "Value": ".\\Additional\\Model\\dlc\\dlcholo\\",
+      //  "Description": [
+      //    "(Sonic Frontiers) Inugami Korone clothing",
+      //    "Requires the Frontiers add-on pack 2 to be installed!"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Rathalos",
+      //  "Value": ".\\Additional\\Model\\dlc\\dlcmhrhunter\\",
+      //  "Description": [
+      //    "(Sonic Frontiers) The world of Monster Hunter collides with Sonic Generations in the Monster Hunter Collaboration Pack! Forge the timeline in style with the Hunter's Rathalos Outfit!",
+      //    "Requires the Frontiers add-on pack 2 to be installed!"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Felyne Rathalos",
+      //  "Value": ".\\Additional\\Model\\dlc\\dlcmhrairou\\",
+      //  "Description": [
+      //    "(Sonic Frontiers) The world of Monster Hunter collides with Sonic Generations in the Monster Hunter Collaboration Pack! Forge the timeline in style with the Hunter's Felyne's Rathalos Outfit!",
+      //    "Requires the Frontiers add-on pack 2 to be installed!"
+      //  ]
+      //},
+      {
+        "DisplayName": "Holiday Cheer Suit",
+        "Value": ".\\Additional\\Model\\dlc\\dlcxmas\\",
+        "Description": [
+          "(Sonic Frontiers) Bring some holiday spirit to the timeline with the Holiday Cheer Suit!",
+          "Requires the Frontiers add-on pack 1 to be installed!"
+        ]
+      }
+    ],
+    "Skin1Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Unused",
+        "Description": [
+          "Disable customisable shoe skins"
+        ]
+      },
+      {
+        "DisplayName": "LGBTQ Pride Shoes",
+        "Value": ".\\Additional\\Skin\\lgbtq customisable\\",
+        "Description": [
+          "Encore Sonic with LGBTQ flag shoes (Works with any accessory using standard shoes)"
+        ]
+      },
+      {
+        "DisplayName": "Trans Pride Shoes",
+        "Value": ".\\Additional\\Skin\\trans customisable\\",
+        "Description": [
+          "Encore Sonic with trans flag shoes (Works with any accessory using standard shoes)"
+        ]
+      },
+      {
+        "DisplayName": "Paint Shoes",
+        "Value": ".\\Additional\\Skin\\paint customisable\\",
+        "Description": [
+          "Encore Sonic with paint splattered shoes (Works with any accessory using standard shoes)"
+        ]
+      },
+      {
+        "DisplayName": "Shadow Soap Shoes",
+        "Value": ".\\Additional\\Skin\\shadow soaps\\",
+        "Description": [
+          "Encore Sonic with Shadow soap shoes (Only works with the Soap Shoes accessory)"
+        ]
+      }
+    ],
+    "Skin2Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Unused",
+        "Description": [
+          "Disable customisable gear skins"
+        ]
+      },
+      {
+        "DisplayName": "Dark Chip Bracelet",
+        "Value": ".\\Additional\\Gear\\chip bracelet\\dark gaia\\",
+        "Description": [
+          "Dark Gaia energy Chip Bracelet variant (Works with Chip Bracelet)"
+        ]
+      },
+      {
+        "DisplayName": "Sanic Shirt (Green)",
+        "Value": ".\\Additional\\Gear\\sanic shirt\\green\\",
+        "Description": [
+          "Green Sanic T-Shirt variant (Works with Sanic T-Shirt)"
+        ]
+      },
+      {
+        "DisplayName": "Sanic Shirt (Yellow)",
+        "Value": ".\\Additional\\Gear\\sanic shirt\\yellow\\",
+        "Description": [
+          "Yellow Sanic T-Shirt variant (Works with Sanic T-Shirt)"
+        ]
+      }
+    ],
+    "BoardEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Unused",
+        "Description": [
+          "Disable customisable board skins"
+        ]
+      },
+      {
+        "DisplayName": "Encore Logo",
+        "Value": ".\\Additional\\Board\\flag_encore\\",
+        "Description": [
+          "Enable the Encore logo board"
+        ]
+      },
+      {
+        "DisplayName": "Reimagined Text",
+        "Value": ".\\Additional\\Board\\flag_reimagined\\",
+        "Description": [
+          "Enable the Reimagined text board"
+        ]
+      },
+      {
+        "DisplayName": "Encore SU Life Icon",
+        "Value": ".\\Additional\\Board\\flag_su\\",
+        "Description": [
+          "Enable the Encore HUD SU life icon board"
+        ]
+      },
+      {
+        "DisplayName": "LGBTQ Pride Flag",
+        "Value": ".\\Additional\\Board\\flag_lgbtq\\",
+        "Description": [
+          "Enable the LGBTQ pride flag board"
+        ]
+      },
+      {
+        "DisplayName": "Trans Pride Flag",
+        "Value": ".\\Additional\\Board\\flag_trans\\",
+        "Description": [
+          "Enable the Trans pride flag board"
+        ]
+      }
+    ],
+    "EffectEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Unused",
+        "Description": [
+          "Disable customisable effects"
+        ]
+      }
+    ],
+    "LoadEnum": [
+      {
+        "DisplayName": "Installed",
+        "Value": "Main",
+        "Description": [
+          "Loads main files"
         ]
       }
     ]
