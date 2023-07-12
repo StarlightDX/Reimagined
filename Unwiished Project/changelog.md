@@ -1,2 +1,3 @@
-## Update 1.0
-- Placeholder
+## Update 1.2
+- Fixed lacking Spindash SFX.
+- Restored the broken Lightfield patch from an earlier build.
