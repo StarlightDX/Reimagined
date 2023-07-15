@@ -1,3 +1,9 @@
+## Config Fix (3.1.1)
+- Fixed an error in mod.ini
+
+## Unwiished + (3.1)
+- Added Sonic Unwiished: Reimagined (Sonic World Tour).
+
 ## Hotfix for 3.0 (3.1)
 - Fixed a bug in Rooftop Ruins.
 - Fixed a bug with Encore Sonic's Soap Shoe variant.
@@ -15,9 +21,3 @@
 ## Test Update (2.4+)
 - Dll extenstion addition.
 - ConfigSchema integration.
-
-## Unwiished + (3.1)
-- Added Sonic Unwiished: Reimagined (Sonic World Tour).
-
-## Config Fix (3.1)
-- Fixed an error in mod.ini
