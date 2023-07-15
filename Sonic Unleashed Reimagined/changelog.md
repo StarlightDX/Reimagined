@@ -15,3 +15,9 @@
 ## Test Update (2.4+)
 - Dll extenstion addition.
 - ConfigSchema integration.
+
+## Unwiished + (3.1)
+- Added Sonic Unwiished: Reimagined (Sonic World Tour).
+
+## Config Fix (3.1)
+- Fixed an error in mod.ini
