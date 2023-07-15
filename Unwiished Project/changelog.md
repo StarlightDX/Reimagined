@@ -4,3 +4,6 @@
 
 # Update 1.3
 - Fixed bugged Dragon Road materials.
+
+# Update 1.4
+- Created new HUB world / Gaia Gate appropriate physics.
