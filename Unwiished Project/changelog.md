@@ -7,3 +7,6 @@
 
 # Update 1.4
 - Created new HUB world / Gaia Gate appropriate physics.
+
+# Update 1.4-1
+- Added forced Direct3D 11 support.
