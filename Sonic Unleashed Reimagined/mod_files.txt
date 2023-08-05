@@ -9,8 +9,8 @@ add Unleashed Project/Unleashed Project Nightfall/disk/bb/Packed/ghz200/ghz200.a
 add Unleashed Project/Unleashed Project Nightfall/disk/bb/Packed/ghz200/ghz200.ar.02
 add Unleashed Project/Unleashed Project Nightfall/disk/bb/Packed/ghz200/ghz200.arl
 add Unleashed Project/Unleashed Project Nightfall/disk/bb/Packed/ghz200/Stage.pfd
-add Unleashed Project/Unleashed Project Nightfall/disk/bb/ghz200.ar.00
-add Unleashed Project/Unleashed Project Nightfall/disk/bb/ghz200.arl
+add Unleashed Project/Unleashed Project Nightfall/disk/bb/#ghz200.ar.00
+add Unleashed Project/Unleashed Project Nightfall/disk/bb/#ghz200.arl
 add Unleashed Project/Unleashed Project Nightfall/disk/bb2/LoadingCustom.ar.00
 add Unleashed Project/Unleashed Project Nightfall/disk/bb2/LoadingCustom.ar.01
 add Unleashed Project/Unleashed Project Nightfall/disk/bb2/LoadingCustom.ar.02
