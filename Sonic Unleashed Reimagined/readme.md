@@ -12,6 +12,7 @@ Adabat Adventure Pack: https://mega.nz/file/NNAn2QxT#HlWiXj-7JEj3eUpwv5gNWzUPJwo
 EggmanLand Pack: https://drive.google.com/file/d/0Bw34jGBF9Ww3YlVzUWVNbURVWjQ/view?resourcekey=0-YlWbJ5WXBB1S7kQHFzFihA
 NY Challenge Pack: https://drive.google.com/file/d/1JIhY4QvSw3p3VbZRhcUfT-Ilh5FwZLZN/view
 Dragon Road Night Act 1: http://www.mediafire.com/download/723qqbjaid6udqv/Dragon+Road+Night+Act+1.rar
+Windmill Isle Night Act 1: https://gamebanana.com/mods/459112
 
 Tips:
 

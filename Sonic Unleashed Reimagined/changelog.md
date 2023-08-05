@@ -1,3 +1,7 @@
+## Nightfall (3.2)
+- Added Windmill Isle (Night) Reimagined, This requires "Windmill Isle Night" by HLS.
+- This mode can played by swapping the "Gameplay Mode" to "Unleashed Project Nightfall".
+
 ## Config Fix (3.1.1)
 - Fixed an error in mod.ini
 

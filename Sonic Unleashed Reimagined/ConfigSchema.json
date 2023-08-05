@@ -38,7 +38,7 @@
           "DisplayName": "Additional Content (Night)",
           "Description": [
             "Choose to enable additional Reimagined content.", 
-            "This requires Unleashed Project Night mode enabled and Unleashed Project loaded under this mod."
+            "This requires Unleashed Project Nightfall mode enabled and content loaded under this mod."
           ],
           "Type": "UPNAdd1Enum",
           "MinValue": null,
@@ -144,6 +144,14 @@
       //    "Play Unleashed Project: Reimagined with UP Addon integration"
       //  ]
       //},
+      {
+        "DisplayName": "Unleashed Project Nightfall",
+        "Value": ".\\Unleashed Project\\Unleashed Project Nightfall\\",
+        "Description": [
+          "Play Unleashed Project: Reimagined Night Stages",
+          "Requires HLS' Windmill Isle Night Mod"
+        ]
+      },
       {
         "DisplayName": "Unwiished Project",
         "Value": ".\\Unleashed Project\\Unleashed Project Wii\\",
@@ -255,7 +263,7 @@
         "Description": [
           "Disabled additional options"
         ]
-      }
+      } 
       //{
       //  "DisplayName": "Enabled",
       //  "Value": ".\\Unleashed Project\\UPNAdditional\\",
