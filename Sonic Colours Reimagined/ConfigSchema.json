@@ -1,0 +1,115 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Gameplay Mode",
+      "Elements": [
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "Stage pack",
+          "Description": [
+            "Select which Colours stage pack is you want to play in. REQUIRES CHOSEN PACK TO BE LOADED BELOW REIMAGINED."
+          ],
+          "Type": "StageEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Rainbow\\Colors Project\\Tropical Resort\\"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Title Screen",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Title Screen",
+          "Description": [
+            "Select if you want the Sonic Colours: Reimagined title screen."
+          ],
+          "Type": "GUITitleEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Blur\\Off\\"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "StageEnum": [
+      {
+        "DisplayName": "Colours Project",
+        "Value": ".\\Rainbow\\Colors Project\\Tropical Resort\\",
+        "Description": [
+          "Play Colours Project: Reimagined"
+        ]
+      },
+      {
+        "DisplayName": "Tropical Resort",
+        "Value": ".\\Rainbow\\Stage\\Tropical Resort\\",
+        "Description": [
+          "Play Tropical Resort Reimagined"
+        ]
+      },
+      {
+        "DisplayName": "Sweet Mountain Act1",
+        "Value": ".\\Rainbow\\Stage\\Sweet Mountain\\",
+        "Description": [
+          "Play Sweet Mountain Reimagined"
+        ]
+      },
+      //{
+      //  "DisplayName": "Sweet Mountain Act2",
+      //  "Value": ".\\Rainbow\\Stage\\Sweet Mountain Act2\\",
+      //  "Description": [
+      //    "Play Sweet Mountain Reimagined"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Starlight Carnival",
+      //  "Value": ".\\Rainbow\\Stage\\Starlight Carnival\\",
+      //  "Description": [
+      //    "Play Starlight Carnival Reimagined"
+      //  ]
+      //},
+      {
+        "DisplayName": "Planet Wisp",
+        "Value": ".\\Rainbow\\Stage\\Planet Wisp\\",
+        "Description": [
+          "Play Planet Wisp Reimagined"
+        ]
+      },
+      {
+        "DisplayName": "Aquarium Park",
+        "Value": ".\\Rainbow\\Stage\\Aquarium Park\\",
+        "Description": [
+          "Play Aquarium Park Reimagined"
+        ]
+      }
+      //{
+      //  "DisplayName": "Asteroid Coaster",
+      //  "Value": ".\\Rainbow\\Stage\\Asteroid Coaster\\",
+      //  "Description": [
+      //    "Play Asteroid Coaster Reimagined"
+      //  ]
+      //}
+    ],
+    "GUITitleEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": ".\\Blur\\Off\\",
+        "Description": [
+          "Disable Reimagined title screen"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Blur\\GUI\\Title\\",
+        "Description": [
+          "Enable Reimagined title screen"
+        ]
+      }
+    ]
+  },
+    "IniFile": "mod.ini"
+  }
