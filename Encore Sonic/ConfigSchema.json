@@ -90,7 +90,7 @@
       },
       {
         "DisplayName": "Lightspeed Ring",
-        "Value": ".\\Additional\\\\Model\\diskette\\adventure\\",
+        "Value": ".\\Additional\\Model\\diskette\\adventure\\",
         "Description": [
           "(Sonic Adventure) I wonder why you don't need this anymore in newer games?"
         ]
@@ -335,6 +335,13 @@
         "Value": ".\\Additional\\Board\\flag_encore\\",
         "Description": [
           "Enable the Encore logo board"
+        ]
+      },
+      {
+        "DisplayName": "Encore Logo Custom",
+        "Value": ".\\Additional\\Board\\flag_encore2\\",
+        "Description": [
+          "Enable the Custom Encore logo board"
         ]
       },
       {

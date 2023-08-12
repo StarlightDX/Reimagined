@@ -1,3 +1,4 @@
 add ConfigSchema.json
 add Encore Sonic.dll
 add mod.ini
+add HowToInstall add-ons.txt
