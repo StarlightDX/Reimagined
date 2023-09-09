@@ -1,3 +1,7 @@
+## Nightfall (3.3)
+- Added Camelot Isle (Night) Reimagined, This requires "Savannah Citadel Night" by HLS.
+- Fixed Earths Edge visibility in tunnels.
+
 ## Nightfall (3.2)
 - Added Windmill Isle (Night) Reimagined, This requires "Windmill Isle Night" by HLS.
 - This mode can played by swapping the "Gameplay Mode" to "Unleashed Project Nightfall".
