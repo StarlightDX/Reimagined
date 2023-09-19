@@ -33,6 +33,12 @@ add Unleashed Project/Unleashed Project/disk/bb/Packed/cte200/cte200.ar.05
 add Unleashed Project/Unleashed Project/disk/bb/Packed/cte200/cte200.ar.06
 add Unleashed Project/Unleashed Project/disk/bb/Packed/cte200/cte200.arl
 add Unleashed Project/Unleashed Project/disk/bb/Packed/cte200/Stage.pfd
+add Unleashed Project/Unleashed Project/disk/bb/cte_cmn.ar.00
+add Unleashed Project/Unleashed Project/disk/bb/cte_cmn.ar.01
+add Unleashed Project/Unleashed Project/disk/bb/cte_cmn.ar.02
+add Unleashed Project/Unleashed Project/disk/bb/cte_cmn.ar.03
+add Unleashed Project/Unleashed Project/disk/bb/cte_cmn.ar.04
+add Unleashed Project/Unleashed Project/disk/bb/cte_cmn.arl
 add Unleashed Project/UPDirectorsCut/disk/bb/Packed/cte200/cte200.ar.00
 add Unleashed Project/UPDirectorsCut/disk/bb/Packed/cte200/cte200.ar.01
 add Unleashed Project/UPDirectorsCut/disk/bb/Packed/cte200/cte200.ar.02
