@@ -1,0 +1,6 @@
+add ConfigSchema.json
+add Adventure Pack.dll
+add codes.hmm
+add readme.md
+add Credits.txt
+add mod.ini

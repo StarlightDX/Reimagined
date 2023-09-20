@@ -1,0 +1,394 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Gameplay Mode",
+      "Elements": [
+        {
+          "Name": "IncludeDir7",
+          "DisplayName": "Stage pack",
+          "Description": [
+            "Select which Unleashed stage pack is you want to play in. REQUIRES CHOSEN PACK TO BE LOADED BELOW REIMAGINED."
+          ],
+          "Type": "StageEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Extra\\STGEggmanLand\\"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Additional Content (ADVENTURE PACK MODE)",
+      "Elements": [
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "Adventure Pack EX",
+          "Description": [
+            "Choose to enable extentions to the Adventure Packs for Reimagined.",
+            "This requires the same Adventure Pack mode enabled and loaded under this mod."
+          ],
+          "Type": "APAdd1Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Additional Content (EGGMANLAND MODE)",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Tornado Defence",
+          "Description": [
+            "Choose between Tornado Defence varaints.",
+            "This requires EggmanLand mode enabled and the EggmanLand mod loaded under this mod."
+          ],
+          "Type": "EGBAdd2Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir2",
+          "DisplayName": "EggmanLand Music",
+          "Description": [
+            "Choose between EggmanLand Reimagined day & night music.",
+            "This requires EggmanLand mode enabled and the EggmanLand mod loaded under this mod."
+          ],
+          "Type": "EGBAdd1Enum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Other",
+      "Elements": [
+        {
+          "Name": "IncludeDir6",
+          "DisplayName": "Integrated Physiscs",
+          "Description": [
+            "Choose between physics options."
+          ],
+          "Type": "PhysicsEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        },
+        {
+          "Name": "IncludeDir5",
+          "DisplayName": "Title Screen",
+          "Description": [
+            "Enabled Reimagined title screen"
+          ],
+          "Type": "TitleEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Backend Options",
+      "Elements": [
+        {
+          "Name": "IncludeDir3",
+          "DisplayName": "Additional Audio",
+          "Description": [
+            "Loads additional audio used in Adventure Packs"
+          ],
+          "Type": "AudioEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Audio\\Streamed\\"
+        },
+        {
+          "Name": "IncludeDir4",
+          "DisplayName": "Streamed Audio",
+          "Description": [
+            "Loads streamed audio used for level music"
+          ],
+          "Type": "RootEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "."
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "StageEnum": [
+      {
+        "DisplayName": "Dragon Road Night",
+        "Value": ".\\Extra\\STGChinaEvil\\",
+        "Description": [
+          "Play through Reimagined Dragon Road Night Act 1"
+        ]
+      },
+      {
+        "DisplayName": "NYC Challenge Pack",
+        "Value": ".\\Extra\\PackNYC\\",
+        "Description": [
+          "Play through Reimagined NYC Challenge Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "EggmanLand Pack",
+        "Value": ".\\Extra\\STGEggmanLand\\",
+        "Description": [
+          "Play through Reimagined EggmanLand Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Night Hub Worlds Pack",
+        "Value": ".\\Extra\\Night HUB\\",
+        "Description": [
+          "Play through Reimagined Night Hub Worlds"
+        ]
+      },
+      {
+        "DisplayName": "Adabat Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Adabat\\",
+        "Description": [
+          "Play through Reimagined Adabat Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Apotos Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Apotos\\",
+        "Description": [
+          "Play through Reimagined Apotos Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Chun-Nan Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\China\\",
+        "Description": [
+          "Play through Reimagined Chun-Nan Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Empire City Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Empire\\",
+        "Description": [
+          "Play through Reimagined Empire City Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Holoska Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Holoska\\",
+        "Description": [
+          "Play through Reimagined Holoska Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Mazuri Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Mazuri\\",
+        "Description": [
+          "Play through Reimagined Mazuri Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Shamar Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Shamar\\",
+        "Description": [
+          "Play through Reimagined Shamar Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Spagonia Adventure Pack",
+        "Value": ".\\Adventure Pack\\Standalone\\Spagonia\\",
+        "Description": [
+          "Play through Reimagined Spagonia Adventure Pack Stages"
+        ]
+      },
+      {
+        "DisplayName": "Chun-Nan Adventure Pack Cut Content",
+        "Value": ".\\Extra\\ChinaCutContent\\",
+        "Description": [
+          "Play through the OLD Reimagined Chun-Nan Adventure Pack Stages"
+        ]
+      }
+    ],
+    "APAdd1Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disabled additional options"
+        ]
+      }
+      //{
+      //  "DisplayName": "Apotos Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\ApotosEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Apotos Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Mazuri Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\MazuriEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Mazuri Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Spagonia Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\SpagoniaEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Spagonia Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Chun-Nan Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\ChinaEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Chun-Nan Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Shamar Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\ShamarEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Shamar Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Empire City Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\EmpireEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Empire City Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Adabat Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\AdabatEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Adabat Adventure Pack Stages"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Holoska Adventure Pack",
+      //  "Value": ".\\Adventure Pack\\Extended\\HoloskaEX\\",
+      //  "Description": [
+      //    "Play through Reimagined Holoska Adventure Pack Stages"
+      //  ]
+      //}
+    ],
+    "EGBAdd1Enum": [
+      {
+        "DisplayName": "Day music",
+        "Value": ".\\Audio\\cpk\\day\\",
+        "Description": [
+          "Use the day music",
+          "(This is the default, use this option when playing other stage packs)"
+        ]
+      }
+      //{
+      //  "DisplayName": "Night music",
+      //  "Value": ".\\Audio\\cpk\\night\\",
+      //  "Description": [
+      //    "Use the night music"
+      //  ]
+      //}
+    ],
+    "TitleEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable title screen"
+        ]
+      },
+      {
+        "DisplayName": "Reimagined/Encore",
+        "Value": ".\\HUD\\Extra\\TitleScreen\\Encore\\",
+        "Description": [
+          "Enable title screen.",
+          "Reimagined logo for SU & SWA, Encore logo for Gens"
+        ]
+      },
+      {
+        "DisplayName": "Reimagined/Encore Legacy",
+        "Value": ".\\HUD\\Extra\\TitleScreen\\Encore Legacy\\",
+        "Description": [
+          "Enable title screen.",
+          "Reimagined logo for SU & SWA, Encore Legacy logo for Gens"
+        ]
+      }
+    ],
+    "EGBAdd2Enum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable custom Tornado Defence variants",
+          "(This is the default, use this option when playing other stage packs)"
+        ]
+      },
+      {
+        "DisplayName": "Towards the Death Egg",
+        "Value": ".\\Extra\\Tornado Defence\\DEZ\\",
+        "Description": [
+          "Fly towards the Death Egg after it has launched from Little Planet"
+        ]
+      },
+      {
+        "DisplayName": "Towards Little Planet",
+        "Value": ".\\Extra\\Tornado Defence\\LPZ\\",
+        "Description": [
+          "Fly towards Little Planet to stop the Death Egg from launching"
+        ]
+      }
+    ],
+    "AudioEnum": [
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\Audio\\Streamed\\",
+        "Description": [
+          "Do not touch these options"
+        ]
+      }
+    ],
+    "RootEnum": [
+      {
+        "DisplayName": "Enabled",
+        "Value": ".",
+        "Description": [
+          "Do not touch these options"
+        ]
+      }
+    ],
+    "PhysicsEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Disable integrated physics options",
+          "(Use for base Generations physics & other mods)"
+        ]
+      },
+      {
+        "DisplayName": "Unleashed",
+        "Value": ".\\Extra\\Physics\\Unleashed\\",
+        "Description": [
+          "Enable Unleashed physics"
+        ]
+      },
+      {
+        "DisplayName": "Redux",
+        "Value": ".\\Extra\\Physics\\Redux\\",
+        "Description": [
+          "Enable Redux physics"
+        ]
+      }
+    ]
+  },
+    "IniFile": "mod.ini"
+  }
