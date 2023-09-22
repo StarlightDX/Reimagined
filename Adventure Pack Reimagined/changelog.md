@@ -1,5 +1,5 @@
 ## Fixed 1-2 not functioning (1.3)
-- Read title lol.
+- For Holoska & Spagonia.
 
 ## Fixes (1.2)
 - Fixed texture UV's not lining up.
