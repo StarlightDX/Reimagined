@@ -4,3 +4,9 @@ add codes.hmm
 add readme.md
 add Credits.txt
 add mod.ini
+add Adventure Pack/Standalone/Holoska/disk/bb2/cpz200.ar.00
+add Adventure Pack/Standalone/Holoska/disk/bb2/cpz200.arl
+add Adventure Pack/Standalone/Holoska/disk/bb2/cte200.ar.00
+add Adventure Pack/Standalone/Holoska/disk/bb2/cte200.arl
+add Adventure Pack/Standalone/Holoska/disk/bb2/pla200.ar.00
+add Adventure Pack/Standalone/Holoska/disk/bb2/pla200.arl
