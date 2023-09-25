@@ -171,3 +171,5 @@ add Adventure Pack/Standalone/Empire/disk/bb2/Packed/pam000/pam000.ar.04
 add Adventure Pack/Standalone/Empire/disk/bb2/Packed/pam000/pam000.ar.05
 add Adventure Pack/Standalone/Empire/disk/bb2/Packed/pam000/pam000.arl
 add Adventure Pack/Standalone/Empire/disk/bb2/Packed/pam000/Stage.pfd
+add Adventure Pack Reimagined/Extra/Tornado Defence/DEZ/disk/bb/#cpz200.ar.00
+add Adventure Pack Reimagined/Extra/Tornado Defence/DEZ/disk/bb/#cpz200.arl
