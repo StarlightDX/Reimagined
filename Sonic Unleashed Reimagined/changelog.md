@@ -1,3 +1,6 @@
+## Fix 3.5.1
+- Implemented Reimagined + branding.
+
 ## Earths Edge (3.4 / 3.5)
 - Earths Edge materials & lighting fix.
 

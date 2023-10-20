@@ -48,3 +48,8 @@ add Unleashed Project/UPDirectorsCut/disk/bb/Packed/cte200/cte200.ar.05
 add Unleashed Project/UPDirectorsCut/disk/bb/Packed/cte200/cte200.ar.06
 add Unleashed Project/UPDirectorsCut/disk/bb/Packed/cte200/cte200.arl
 add Unleashed Project/UPDirectorsCut/disk/bb/Packed/cte200/Stage.pfd
+add HUD/Extra/TitleScreen/Reimagined+/disk/bb2/#TitleR.ar.00
+add HUD/Extra/TitleScreen/Reimagined+/disk/bb2/#TitleR.ar.01
+add HUD/Extra/TitleScreen/Reimagined+/disk/bb2/#TitleR.arl
+add Unleashed Project/UPDirectorsCut/disk/bb3/NoticeBoard.ar.00
+add Unleashed Project/UPDirectorsCut/disk/bb3/NoticeBoard.arl

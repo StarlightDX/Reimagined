@@ -190,6 +190,14 @@
         ]
       },
       {
+        "DisplayName": "Reimagined+",
+        "Value": ".\\HUD\\Extra\\TitleScreen\\Reimagined+\\",
+        "Description": [
+          "Enable title screen.",
+          "Reimagined+ logo for SU & SWA, Encore logo for Gens"
+        ]
+      },
+      {
         "DisplayName": "Reimagined/Encore",
         "Value": ".\\HUD\\Extra\\TitleScreen\\Encore\\",
         "Description": [
@@ -244,7 +252,7 @@
         "Value": ".\\Unleashed Project\\UPDirectorsCut\\",
         "Description": [
           "Enable Unleashed Project: Reimagined Directors Cut.",
-          "(Contains Dragon Desert & a modified Earths Edge)"
+          "(Contains Dragon Valley, Rooftop Ruins & a modified Earths Edge)"
         ]
       },
       {
