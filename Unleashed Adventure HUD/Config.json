@@ -1,0 +1,42 @@
+{
+   "Groups":[
+      {
+         "Name":"Main",
+         "DisplayName":"Configuration",
+        "Elements": [
+          {
+            "Name": "IncludeDir0",
+            "DisplayName": "Unleashed Adventure HUD variant",
+            "Description": [
+              "Choose between different HUD styles"
+            ],
+            "Type": "HUDEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "Adventure"
+          }
+
+        ]
+      }
+   ],
+  "Enums": {
+    "HUDEnum": [
+      {
+        "DisplayName": "Release",
+        "Value": "Adventure",
+        "Description": [
+          "Use Reimagined's update Adventure HUD"
+        ]
+      },
+      {
+        "DisplayName": "Demo",
+        "Value": "Adventure Demo",
+        "Description": [
+          "Use Reimagined's update Adventure Demo HUD"
+        ]
+      }
+    ]
+
+  },
+   "IniFile":"mod.ini"
+}

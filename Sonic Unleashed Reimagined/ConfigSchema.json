@@ -8,7 +8,8 @@
           "Name": "IncludeDir7",
           "DisplayName": "Stage pack",
           "Description": [
-            "Select which Unleashed stage pack is you want to play in. REQUIRES CHOSEN PACK TO BE LOADED BELOW REIMAGINED."
+            "Select which Unleashed stage pack is you want to play in.",
+            "REQUIRES CHOSEN PACK TO BE LOADED BELOW REIMAGINED."
           ],
           "Type": "StageEnum",
           "MinValue": null,
@@ -19,14 +20,14 @@
     },
     {
       "Name": "Main",
-      "DisplayName": "Additional Content (UNLEASHED PROJECT MODE(S))",
+      "DisplayName": "Additional Content (UNLEASHED PROJECT MODES)",
       "Elements": [
         {
-          "Name": "IncludeDir1",
+          "Name": "IncludeDir4",
           "DisplayName": "Additional Content (Day)",
           "Description": [
             "Choose to enable additional Reimagined content.",
-            "This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+            "This requires Unleashed Project mode enabled and Unleashed Project (& UP: The Complete Addon, if using) loaded under this mod."
           ],
           "Type": "UPAdd1Enum",
           "MinValue": null,
@@ -37,8 +38,8 @@
           "Name": "IncludeDir2",
           "DisplayName": "Additional Content (Night)",
           "Description": [
-            "Choose to enable additional Reimagined content.", 
-            "This requires Unleashed Project Nightfall mode enabled and content loaded under this mod."
+            "Choose to enable additional Reimagined content.",
+            "This requires Unleashed Project Nightfall mode enabled and HLS' series of night stages loaded under this mod."
           ],
           "Type": "UPNAdd1Enum",
           "MinValue": null,
@@ -46,11 +47,11 @@
           "DefaultValue": "Off"
         },
         {
-          "Name": "IncludeDir4",
-          "DisplayName": "Jungle Joyride 1-2 Layout",
+          "Name": "IncludeDir1",
+          "DisplayName": "DLC Layouts",
           "Description": [
-            "Choose to enable the 1-2 set data from Sonic Unleashed's DLC.",
-              "This requires Unleashed Project mode enabled and Unleashed Project loaded under this mod."
+            "Choose to enable the UP Addon DLC layouts from Sonic Unleashed's DLC.",
+            "This requires Unleashed Project mode enabled and Unleashed Project + UP: The Complete Addon to be loaded under this mod."
           ],
           "Type": "SetExAdabatEnum",
           "MinValue": null,
@@ -79,7 +80,7 @@
           "Name": "IncludeDir0",
           "DisplayName": "Integrated Physiscs",
           "Description": [
-            "Choose between physics options."
+            "Choose between different physics options."
           ],
           "Type": "PhysicsEnum",
           "MinValue": null,
@@ -90,7 +91,8 @@
           "Name": "IncludeDir8",
           "DisplayName": "Title Screen",
           "Description": [
-            "Enabled Reimagined title screen"
+            "Enabled Reimagined title screen.",
+            "Requires the Unleashed Title Screen mod."
           ],
           "Type": "TitleEnum",
           "MinValue": null,
@@ -107,7 +109,7 @@
           "Name": "IncludeDir5",
           "DisplayName": "Streamed Audio",
           "Description": [
-            "Loads streamed audio used for level music"
+            "Loads streamed audio used for level music."
           ],
           "Type": "RootEnum",
           "MinValue": null,
@@ -118,7 +120,7 @@
           "Name": "IncludeDir3",
           "DisplayName": "Reimagined Radio",
           "Description": [
-            "Play the Reimagined Radio feat. the Reimagined Soundtrack"
+            "Play the Reimagined Radio feat. the Reimagined Soundtrack."
           ],
           "Type": "RadioEnum",
           "MinValue": null,
@@ -134,12 +136,13 @@
         "DisplayName": "Unleashed Project",
         "Value": ".\\Unleashed Project\\Unleashed Project\\",
         "Description": [
-          "Play Unleashed Project: Reimagined"
+          "Play Unleashed Project: Reimagined",
+          "Requires Unleashed Project."
         ]
       },
       //{
       //  "DisplayName": "Unleashed Project (Addon)",
-      //  "Value": ".\\Unleashed Project\\UPAddon\\Hotfixed\\",
+      //  "Value": ".\\Unleashed Project\\UPAddon\\",
       //  "Description": [
       //    "Play Unleashed Project: Reimagined with UP Addon integration"
       //  ]
@@ -149,14 +152,15 @@
         "Value": ".\\Unleashed Project\\Unleashed Project Nightfall\\",
         "Description": [
           "Play Unleashed Project: Reimagined Night Stages",
-          "Requires HLS' Windmill Isle Night Mod"
+          "Requires HLS' series of night stage mods."
         ]
       },
       {
         "DisplayName": "Unwiished Project",
         "Value": ".\\Unleashed Project\\Unleashed Project Wii\\",
         "Description": [
-          "Play Unwiished Project: Reimagined/Sonic World Tour Stages"
+          "Play Unwiished Project: Reimagined/Sonic World Tour Stages.",
+          "Requires Sonic Unwiished+"
         ]
       }
       //{
@@ -209,7 +213,8 @@
         "DisplayName": "Reimagined/Encore Legacy",
         "Value": ".\\HUD\\Extra\\TitleScreen\\Encore Legacy\\",
         "Description": [
-          "Enable title screen. Reimagined logo for SU & SWA, Encore Legacy logo for Gens"
+          "Enable title screen.",
+          "Reimagined logo for SU & SWA, Encore Legacy logo for Gens"
         ]
       }
     ],
@@ -218,16 +223,17 @@
         "DisplayName": "Disabled",
         "Value": "Off",
         "Description": [
-          "Use base Reimagined layouts.",
-          "(Required for NON UNLEASHED PROJECT MODE'S)"
+          "Use base UP/UP Addon layouts.",
+          "(Required for NON UNLEASHED PROJECT MODES)"
         ]
       },
       {
         "DisplayName": "Enabled",
-        "Value": ".\\Extra\\SetExAdabat\\",
+        "Value": ".\\Unleashed Project\\UPAddon\\",
         "Description": [
-          "Use Act 1-2 level layout.",
-          " (Act 1-2 AP)"
+          "Use Act 1-2 DLC level layouts.",
+          "(UP Addon DLC support)",
+          "Disable when using Sonic Unwiished+ or Night Stages."
         ]
       }
     ],
@@ -236,7 +242,7 @@
         "DisplayName": "Disabled",
         "Value": "Off",
         "Description": [
-          "Disabled additional options"
+          "Disabled additional options."
         ]
       },
       {
@@ -244,7 +250,7 @@
         "Value": ".\\Unleashed Project\\UPDeluxe\\",
         "Description": [
           "Enable Unleashed Project: Reimagined DX.",
-          "Featuring Dragon Dusk v2"
+          "Featuring Dragon Dusk v2."
         ]
       },
       {
@@ -252,31 +258,38 @@
         "Value": ".\\Unleashed Project\\UPDirectorsCut\\",
         "Description": [
           "Enable Unleashed Project: Reimagined Directors Cut.",
-          "(Contains Dragon Valley, Rooftop Ruins & a modified Earths Edge)"
+          "(Contains Dragon Valley, a modified Earths Edge & Jungle Joyride 1-2 layouts)"
         ]
       },
       {
         "DisplayName": "Encore Legacy Edition",
         "Value": ".\\Unleashed Project\\UPEncore\\",
         "Description": [
-          "Enable Unleashed Project: Encore Legacy Edition featuring the early Windmill Isle & Dragon Dusk stages, also includes the original Jungle Joyride",
-          "(Alternate Set Data will not work with this option)"
+          "Enable Unleashed Project: Encore Legacy Edition featuring the early Windmill Isle & Dragon Dusk stages, also includes the original Jungle Joyride."
         ]
       }
+      //{
+      //  "DisplayName": "Jungle Joyride Act 1-2",
+      //  "Value": ".\\Extra\\SetExAdabat\\",
+      //  "Description": [
+      //    "Use Jungle Joyride Act 1-2 level layout.",
+      //    " (Act 1-2 AP)"
+      //  ]
+      //}
     ],
     "UPNAdd1Enum": [
       {
         "DisplayName": "Disabled",
         "Value": "Off",
         "Description": [
-          "Disabled additional options"
+          "Disabled additional options."
         ]
-      } 
+      }
       //{
       //  "DisplayName": "Enabled",
       //  "Value": ".\\Unleashed Project\\UPNAdditional\\",
       //  "Description": [
-      //    "Enable additional options"
+      //    "Enable additional options."
       //  ]
       //}
     ],
@@ -285,7 +298,7 @@
         "DisplayName": "Enabled",
         "Value": ".\\Audio\\Streamed\\",
         "Description": [
-          "Do not touch these options"
+          "Do not touch these options."
         ]
       }
     ],
@@ -294,7 +307,7 @@
         "DisplayName": "Enabled",
         "Value": ".",
         "Description": [
-          "Do not touch these options"
+          "Do not touch these options."
         ]
       }
     ],
@@ -303,14 +316,14 @@
         "DisplayName": "Disabled",
         "Value": "Off",
         "Description": [
-          "Disabled the Reimagined Radio"
+          "Disabled the Reimagined Radio."
         ]
       },
       {
         "DisplayName": "Enabled",
         "Value": ".\\Audio\\Radio\\",
         "Description": [
-          "Enable the Reimagined Radio"
+          "Enable the Reimagined Radio."
         ]
       }
     ],
@@ -319,14 +332,15 @@
         "DisplayName": "Disabled",
         "Value": "Off",
         "Description": [
-          "Disable Red Egg Fighters"
+          "Disable Red Egg Fighters."
         ]
       },
       {
         "DisplayName": "Enabled",
         "Value": ".\\Extra\\Unleashed Project\\Enemies\\Red Egg Fighter\\",
         "Description": [
-          "Enable Red Egg Fighters"
+          "Enable Red Egg Fighters.",
+          "For Unleashed Project."
         ]
       }
     ],
@@ -343,18 +357,18 @@
         "DisplayName": "Unleashed",
         "Value": ".\\Extra\\Physics\\Unleashed\\",
         "Description": [
-          "Enable Unleashed physics"
+          "Enable Unleashed physics."
         ]
       },
       {
         "DisplayName": "Redux",
         "Value": ".\\Extra\\Physics\\Redux\\",
         "Description": [
-          "Enable Redux physics"
+          "Enable Redux physics."
         ]
       }
     ]
 
   },
-    "IniFile": "mod.ini"
-  }
+  "IniFile": "mod.ini"
+}

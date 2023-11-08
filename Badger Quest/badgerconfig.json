@@ -1,0 +1,40 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Configuation",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Sticks & Encore HUD",
+          "Description": [
+            "Select whether to use Sticks & Encore HUD"
+          ],
+          "Type": "BadgerEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "."
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "BadgerEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": ".",
+        "Description": [
+          "Disable Sticks & Encore HUD"
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": ".\\disk\\bb4\\",
+        "Description": [
+          "Enable Sticks & Encore HUD"
+        ]
+      }
+    ]
+  },
+    "IniFile": "mod.ini"
+  }

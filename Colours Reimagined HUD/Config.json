@@ -1,0 +1,42 @@
+{
+   "Groups":[
+      {
+         "Name":"Main",
+         "DisplayName":"Configuration",
+        "Elements": [
+          {
+            "Name": "IncludeDir0",
+            "DisplayName": "Reimagined HUD Variant",
+            "Description": [
+              "Choose between different SC & SCU Hud styles."
+            ],
+            "Type": "RainbowHUDEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": ".\\Rainbow\\Colour\\"
+          }
+        ]
+      }
+   ],
+  "Enums": {
+    "RainbowHUDEnum": [
+      {
+        "DisplayName": "Sonic Colours",
+        "Value": ".\\Rainbow\\Colour\\",
+        "Description": [
+          "Use the SC variant."
+        ]
+      },
+      {
+        "DisplayName": "Sonic Colours Ultimate",
+        "Value": ".\\Rainbow\\ReColour\\",
+        "Description": [
+          "Use the SCU variant."
+        ]
+      }
+
+    ]
+
+  },
+   "IniFile":"mod.ini"
+}

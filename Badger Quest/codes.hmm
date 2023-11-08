@@ -1,0 +1,8 @@
+Patch "Disable Fast Music" by "Hyper"
+WriteNop(0xE2E30F, 2);
+
+Patch "Disable High Speed Music" by "Hyper"
+WriteProtected<byte>(0x111B66D, 0xE9, 0x3A, 0x02, 0x00, 0x00);
+
+Code "3D Spindash Doesn't Crash" in "Fixes" by "Chimera"
+WriteProtected<uint>(0x16D8CD4, 0x11D6140) /* Replaces the vftable entry for classic's 3D spindash update with his slide. */

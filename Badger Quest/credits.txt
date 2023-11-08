@@ -1,0 +1,38 @@
+Patch "Disable Fast Music" by "Hyper"
+Patch "Disable High Speed Music" by "Hyper"
+Patch "3D Spindash Doesn't Crash" in "Fixes" by "Chimera"
+Mod "Unleashed Project" by "Team Unleashed, Dario, Chimera & Zoney"
+Mod "Score Generations" by "Hyper"
+Mod "Sonic Unleashed HUD" by "PTKay"
+Mod "SU Restorations" by "Locomotivesss"
+Mod "Sticks RIO 2016" by "M&M"
+Asset *Sticks Icon* by "Skrubd"
+Asset *Encore HUD Assets" by "NextinHKRY"
+Asset *Encore HUD Buttons" by "Archxe"
+Asset *Empire City Materials" by "Archxe"
+Asset *Water Palace Ground Textures* by "Skrubd*
+Asset *Badger Quest Logo* by *DoubleR2D2*
+Asset *Better Sceneeffects & skybox for PAM, CPZ & GHZ* by "MentorDex"
+Tool "Skyth Tools" by "Skyth"
+Tool "HedgeGI" by "Skyth"
+Music "Gaia Gate Remix" by "Silent Dreams"
+Music "EggmanLand Night Remix" by "Silent Dreams"
+Music "Green Forest Remix" by "Silent Dreams"
+Music "Palmtree Panic Remix" by "Silent Dreams"
+Music "Palmtree Panic Past Remix" by "King Meteor Studios"
+Music "Various Looped Tracks" by "The Vineshroom"
+
+-----------------
+Parts I developed
+
+Sticks' Encore HUD
+Stick's Homing & Classic anims
+Palmtree Panic Retextures
+NY/Palmtree Panic/Water Palace Retextures
+
+------------------
+Team Encore & SEGA logo movie:
+
+MentorDex
+Micah_Hedgehog
+XenokoYT
