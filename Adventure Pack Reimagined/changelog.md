@@ -1,3 +1,5 @@
+## Fixed incorrect Rooftop Ruins BGM (1.7)
+
 ## Additions (1.5/1.6)
 - Added Loading & Stage Gate text for all stages in all packs.
 - Added updated Mazuri textures to the Mazuri Adventure Pack.
