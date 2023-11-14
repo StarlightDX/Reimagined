@@ -1,3 +1,6 @@
+## Update 4.1
+- Fixed incorrect loading text for Rival Battles.
+
 ## Update 3.1.1
 - Fixed Audio volumes.
 

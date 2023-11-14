@@ -1,0 +1,7 @@
+add Game/Anniversary/disk/bb2/Languages/English/+Loading.ar.00
+add Game/Anniversary/disk/bb2/Languages/English/+Loading.arl
+add codes.hmm
+add mod.ini
+HE1 Reimagined.json
+HE1 Reimagined.hmm
+HE1 Reimagined.dll

@@ -1,0 +1,80 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Gameplay Mode",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Stage pack",
+          "Description": [
+            "Select which game you want to play.",
+            "REQUIRES CHOSEN PACK TO BE LOADED BELOW REIMAGINED."
+          ],
+          "Type": "StageEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Game\\Mirage\\Unleashed Project\\"
+        },
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "Encore HUD & Encore Sonic",
+          "Description": [
+            "Choose to enable additional Deluxe AIO content.",
+            "REQUIRES:",
+            "Sonic Unleashed HUD",
+            "Generations D3D11"
+          ],
+          "Type": "DeluxeEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Deluxe\\disabled\\"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "StageEnum": [
+      {
+        "DisplayName": "Unleashed Reimagined",
+        "Value": ".\\Game\\Mirage\\Unleashed Project\\",
+        "Description": [
+          "Play Unleashed Project: Reimagined",
+          "Requires Unleashed Project"
+        ]
+      },
+      {
+        "DisplayName": "Colours Reimagined",
+        "Value": ".\\Game\\Rainbow\\Colors Project\\Tropical Resort\\",
+        "Description": [
+          "Play Colours Project: Reimagined",
+          "Requires Colors Project - Tropical Resort DEMO"
+        ]
+      },
+      {
+        "DisplayName": "Generations Reimagined",
+        "Value": ".\\Game\\Anniversary\\",
+        "Description": [
+          "Play Generations Reimagined"
+        ]
+      }
+    ],
+      "DeluxeEnum": [
+        {
+          "DisplayName": "Disabled",
+          "Value": ".\\Deluxe\\disabled\\",
+          "Description": [
+            "Disable HUD & Sonic"
+          ]
+        },
+        {
+          "DisplayName": "Enabled",
+          "Value": ".\\Deluxe\\",
+          "Description": [
+            "Play the full HE1 Reimagined Experiece"
+          ]
+        }
+      ]
+    },
+    "IniFile": "mod.ini"
+  }
