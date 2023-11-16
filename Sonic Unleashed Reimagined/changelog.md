@@ -1,3 +1,7 @@
+## Fix 4.1
+- Fixed sky banding in Dragon Dusk.
+- Make sure you have downloaded 4.0 from GameBanana for this.
+
 ## Fix 3.5.1
 - Implemented Reimagined + branding.
 

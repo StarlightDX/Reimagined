@@ -46,18 +46,30 @@
           "MaxValue": null,
           "DefaultValue": "Off"
         },
-        {
-          "Name": "IncludeDir1",
-          "DisplayName": "DLC Layouts",
-          "Description": [
-            "Choose to enable the UP Addon DLC layouts from Sonic Unleashed's DLC.",
-            "This requires Unleashed Project mode enabled and Unleashed Project + UP: The Complete Addon to be loaded under this mod."
-          ],
-          "Type": "SetExAdabatEnum",
-          "MinValue": null,
-          "MaxValue": null,
-          "DefaultValue": "Off"
-        },
+        //{
+        //  "Name": "IncludeDir1",
+        //  "DisplayName": "New",
+        //  "Description": [
+        //    "Choose to enable the UP Addon DLC layouts from Sonic Unleashed's DLC."
+        //  ],
+        //  "Type": "WEnum",
+        //  "MinValue": null,
+        //  "MaxValue": null,
+        //  "DefaultValue": "Off"
+        //},
+        //{
+        //  "Name": "IncludeDir1",
+        //  "DisplayName": "DLC Layouts",
+        //  "Description": [
+        //    "Choose to enable the UP Addon DLC layouts from Sonic Unleashed's DLC.",
+        //    "This requires Unleashed Project mode enabled and Unleashed Project + UP: The Complete Addon to be loaded under this mod.",
+        //    "This also requires the DLC to be enabled in UP: The Complete Addon."
+        //  ],
+        //  "Type": "SetExAdabatEnum",
+        //  "MinValue": null,
+        //  "MaxValue": null,
+        //  "DefaultValue": "Off"
+        //},
         {
           "Name": "IncludeDir6",
           "DisplayName": "Red Egg Fighters",
@@ -234,6 +246,16 @@
           "Use Act 1-2 DLC level layouts.",
           "(UP Addon DLC support)",
           "Disable when using Sonic Unwiished+ or Night Stages."
+        ]
+      }
+    ],
+    "WEnum": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "Off",
+        "Description": [
+          "Use base UP/UP Addon layouts.",
+          "(Required for NON UNLEASHED PROJECT MODES)"
         ]
       }
     ],
