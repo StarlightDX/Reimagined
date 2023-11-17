@@ -6,3 +6,13 @@ add Credits.txt
 add mod.ini
 add Sound/SNG03_EUCc.cpk
 add Sound/SNG03_EUCc.csb
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.ar.00
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.ar.01
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.ar.02
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.ar.03
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.ar.04
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.ar.05
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.ar.06
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.ar.07
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.ar.08
+add Extra/ChinaCutContent/disk/bb/Packed/sph200/sph200.arl

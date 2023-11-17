@@ -1,3 +1,7 @@
+## Fix 1.8
+- Fixed sky banding in Dragon Dusk.
+- Make sure you have downloaded the newest version from GameBanana for this.
+
 ## Fixed incorrect Rooftop Ruins BGM (1.7)
 
 ## Additions (1.5/1.6)
