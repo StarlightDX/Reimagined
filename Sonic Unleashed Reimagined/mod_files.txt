@@ -12,3 +12,12 @@ add Unleashed Project/Unleashed Project/disk/bb/Packed/sph200/sph200.ar.06
 add Unleashed Project/Unleashed Project/disk/bb/Packed/sph200/sph200.ar.07
 add Unleashed Project/Unleashed Project/disk/bb/Packed/sph200/sph200.ar.08
 add Unleashed Project/Unleashed Project/disk/bb/Packed/sph200/sph200.arl
+add HUD/Extra/TitleScreen/Redux3d/disk/bb2/#Title.ar.00
+add HUD/Extra/TitleScreen/Redux3d/disk/bb2/#Title.arl
+add HUD/Extra/TitleScreen/Redux3d/disk/bb2/Title.ar.00
+add HUD/Extra/TitleScreen/Redux3d/disk/bb2/Title.ar.01
+add HUD/Extra/TitleScreen/Redux3d/disk/bb2/Title.ar.02
+add HUD/Extra/TitleScreen/Redux3d/disk/bb2/Title.ar.03
+add HUD/Extra/TitleScreen/Redux3d/disk/bb2/Title.ar.04
+add HUD/Extra/TitleScreen/Redux3d/disk/bb2/Title.ar.05
+add HUD/Extra/TitleScreen/Redux3d/disk/bb2/Title.arl

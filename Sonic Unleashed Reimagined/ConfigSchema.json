@@ -103,8 +103,7 @@
           "Name": "IncludeDir8",
           "DisplayName": "Title Screen",
           "Description": [
-            "Enabled Reimagined title screen.",
-            "Requires the Unleashed Title Screen mod."
+            "Enabled Reimagined title screen."
           ],
           "Type": "TitleEnum",
           "MinValue": null,
@@ -206,11 +205,21 @@
         ]
       },
       {
+        "DisplayName": "Reimagined",
+        "Value": ".\\HUD\\Extra\\TitleScreen\\Redux3d\\",
+        "Description": [
+          "Enable title screen.",
+          "Reimagined title screen.",
+          "Do NOT use this with UP Addon."
+        ]
+      },
+      {
         "DisplayName": "Reimagined+",
         "Value": ".\\HUD\\Extra\\TitleScreen\\Reimagined+\\",
         "Description": [
           "Enable title screen.",
-          "Reimagined+ logo for SU & SWA, Encore logo for Gens"
+          "Reimagined+ logo for SU & SWA, Encore logo for Gens",
+          "Requires the Sonic Unleashed Title Screen mod."
         ]
       },
       {
@@ -218,7 +227,8 @@
         "Value": ".\\HUD\\Extra\\TitleScreen\\Encore\\",
         "Description": [
           "Enable title screen.",
-          "Reimagined logo for SU & SWA, Encore logo for Gens"
+          "Reimagined logo for SU & SWA, Encore logo for Gens",
+          "Requires the Sonic Unleashed Title Screen mod."
         ]
       },
       {
@@ -226,7 +236,8 @@
         "Value": ".\\HUD\\Extra\\TitleScreen\\Encore Legacy\\",
         "Description": [
           "Enable title screen.",
-          "Reimagined logo for SU & SWA, Encore Legacy logo for Gens"
+          "Reimagined logo for SU & SWA, Encore Legacy logo for Gens",
+          "Requires the Sonic Unleashed Title Screen mod."
         ]
       }
     ],

@@ -1,3 +1,6 @@
+## Fix 4.1.1
+- Added new Title Screen option, thanks Dex.
+
 ## Fix 4.1
 - Fixed sky banding in Dragon Dusk.
 - Make sure you have downloaded 4.0 from GameBanana for this.
