@@ -1,2 +1,2 @@
-## Encore Sonic (2.1)
-- Dll extenstion addition.
+## Encore HUD (3.1)
+- Update on GameBanana.

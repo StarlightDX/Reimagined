@@ -112,7 +112,29 @@
         "Description": [
           "Use Encore HUD for Sticks"
         ]
+      },
+      {
+        "DisplayName": "Mika (bonus)",
+        "Value": "Mika",
+        "Description": [
+          "Use Encore HUD for Mika, but only in Classic Sonic stages"
+        ]
       }
+      //{
+      //  "DisplayName": "Takan without a cap (OC)",
+      //  "Value": ".\\Takan\\NoCap\\",
+      //  "Description": [
+      //    "Use Encore HUD for Takan"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Takan with a cap (OC)",
+      //  "Value": ".\\Takan\\WithCap\\",
+      //  "Description": [
+      //    "Use Encore HUD for Takan"
+      //  ]
+      //}
+
 
     ],
     "ButtonEnum": [
