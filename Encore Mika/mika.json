@@ -1,0 +1,37 @@
+{
+  "Groups": [
+    {
+      "Name": "CPKs",
+      "DisplayName": "Encore Mika Customisation",
+      "Elements": [
+        {
+          "Name": "BoardSkin",
+          "DisplayName": "Board Skins",
+          "Type": "BoardSkin",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "dummy.ini"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "BoardSkin": [
+      {
+        "DisplayName": "Reimagined Text",
+        "Value": "disk\\bb4\\board_reimagined.ini",
+        "Description": [
+          "Enable the Reimagined text board"
+        ]
+      },
+      {
+        "DisplayName": "Starlight Text",
+        "Value": "disk\\bb4\\board_starlight.ini",
+        "Description": [
+          "Enable the Starlight text board"
+        ]
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}
