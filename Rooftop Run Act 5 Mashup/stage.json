@@ -1,0 +1,74 @@
+{
+  "Groups": [
+    {
+      "Name": "CPKs",
+      "DisplayName": "Configuration",
+      "Elements": [
+        {
+          "Name": "Stage",
+          "DisplayName": "Stage lighting",
+          "Description": [
+            "Select what lighting you want for Rooftop Run Act 5!"
+          ],
+          "Type": "Mashup",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "ActD_SubEU_04_260120243\\Stage.ini"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "Mashup": [
+      {
+        "DisplayName": "Sunrise",
+        "Value": "ActD_SubEU_04_260120241\\Stage.ini",
+        "Description": [
+          "Morning lighting with house lights"
+        ]
+      },
+      {
+        "DisplayName": "Morning",
+        "Value": "ActD_SubEU_04_260120242\\Stage.ini",
+        "Description": [
+          "Morning lighting"
+        ]
+      },
+      {
+        "DisplayName": "Daytime",
+        "Value": "ActD_SubEU_04_260120243\\Stage.ini",
+        "Description": [
+          "Daytime lighting, same as base game but double the detail"
+        ]
+      },
+      {
+        "DisplayName": "Evening",
+        "Value": "ActD_SubEU_04_260120244\\Stage.ini",
+        "Description": [
+          "Evening lighting",
+          "",
+          "From Act 2"
+        ]
+      },
+      {
+        "DisplayName": "Sunset",
+        "Value": "ActD_SubEU_04_260120245\\Stage.ini",
+        "Description": [
+          "Sunset lighting",
+          "",
+          "From Act 4"
+        ]
+      },
+      {
+        "DisplayName": "Nighttime",
+        "Value": "ActD_SubEU_04_260120246\\Stage.ini",
+        "Description": [
+          "Nighttime lighting with house lights",
+          "",
+          "From Act 1 Night"
+        ]
+      }
+    ]
+  },
+    "IniFile": "mod.ini"
+  }
