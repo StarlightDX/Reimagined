@@ -1,0 +1,187 @@
+{
+  "Groups": [
+    {
+      "Name": "CPKs",
+      "DisplayName": "Configuration",
+      "Elements": [
+        {
+          "Name": "StagePack",
+          "DisplayName": "Stage Pack",
+          "Description": [
+            "Choose which stage pack to use for encore lighting."
+          ],
+          "Type": "StagePack",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "StagePacks\\adventurepack_adabat.ini"
+        }
+      ]
+    },
+    {
+      "Name": "CPKs",
+      "DisplayName": "UI",
+      "Elements": [
+        {
+          "Name": "SWATitle",
+          "DisplayName": "Title Screen for SU/SWA option",
+          "Description": [
+            "Choose which title screen to use when toggled to Unleashed option.",
+            "",
+            "Requires the Unleashed Title Screen mod for Generations."
+          ],
+          "Type": "UI",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Encore\\UI\\SWATitle1.ini"
+        },
+        {
+          "Name": "GensTitle",
+          "DisplayName": "Title Screen for Gens option",
+          "Description": [
+            "Choose which title screen to use when toggled to Generations option.",
+            "",
+            "Requires the Unleashed Title Screen mod for Generations."
+          ],
+          "Type": "UI2",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Encore\\UI\\SUTitle1.ini"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "StagePack": [
+      //{
+      //  "DisplayName": "Unleashed Project",
+      //  "Value": "StagePacks\\unleashed_project.ini",
+      //  "Description": [
+      //    "Use Sonic Unleashed: Encore for the Unleashed Project.",
+      //    "",
+      //    "Changes Dragon Road & Arid Sands stages.",
+      //    "",
+      //    "Changes the 1-2 stages when UP Addon DLC stages is active."
+      //  ]
+      //},
+      {
+        "DisplayName": "Adventure Pack: Adabat",
+        "Value": "StagePacks\\adventurepack_adabat.ini",
+        "Description": [
+          "Use Sonic Unleashed: Encore for the Adabat Adventure Pack.",
+          "",
+          "Changes Act 2, 3, 4 & 5."
+        ]
+      },
+      {
+        "DisplayName": "Adventure Pack: Apotos",
+        "Value": "StagePacks\\adventurepack_apotos.ini",
+        "Description": [
+          "Use Sonic Unleashed: Encore for the Apotos Adventure Pack.",
+          "",
+          "Changes Act 3 & 4."
+        ]
+      },
+      {
+        "DisplayName": "Adventure Pack: Chun-Nan",
+        "Value": "StagePacks\\adventurepack_chunnan.ini",
+        "Description": [
+          "Use Sonic Unleashed: Encore for the Chun-Nan Adventure Pack.",
+          "",
+          "Changes Act 2, 2-2, 3, 4 & 5."
+        ]
+      },
+      {
+        "DisplayName": "Adventure Pack: Empire City",
+        "Value": "StagePacks\\adventurepack_empirecity.ini",
+        "Description": [
+          "Use Sonic Unleashed: Encore for the Empire City Adventure Pack.",
+          "",
+          "Changes Act 2 & 3."
+        ]
+      },
+      {
+        "DisplayName": "Adventure Pack: Holoska",
+        "Value": "StagePacks\\adventurepack_holoska.ini",
+        "Description": [
+          "Use Sonic Unleashed: Encore for the Holoska Adventure Pack.",
+          "",
+          "Changes 2, 2-2, 3 & 4."
+        ]
+      },
+      {
+        "DisplayName": "Adventure Pack: Mazuri",
+        "Value": "StagePacks\\adventurepack_mazuri.ini",
+        "Description": [
+          "Use Sonic Unleashed: Encore for the Mazuri Adventure Pack.",
+          "",
+          "Changes Act 2, 3, 3-2, 4 & 5."
+        ]
+      },
+      {
+        "DisplayName": "Adventure Pack: Shamar",
+        "Value": "StagePacks\\adventurepack_shamar.ini",
+        "Description": [
+          "Use Sonic Unleashed: Encore for the Shamar Adventure Pack.",
+          "",
+          "Changes Act 2 & 3."
+        ]
+      },
+      {
+        "DisplayName": "Adventure Pack: Spagonia",
+        "Value": "StagePacks\\adventurepack_spagonia.ini",
+        "Description": [
+          "Use Sonic Unleashed: Encore for the Spagonia Adventure Pack.",
+          "",
+          "Changes Act 2, 2-2, 3, 4 & 5."
+        ]
+      }
+    ],
+    "UI": [
+      {
+        "DisplayName": "Standard Encore Title",
+        "Value": "Encore\\UI\\SWATitle1.ini",
+        "Description": [
+          "Standard Encore Title."
+        ]
+      },
+      {
+        "DisplayName": "Gradiented Encore Title",
+        "Value": "Encore\\UI\\SWATitle2.ini",
+        "Description": [
+          "Gradiented Encore Title."
+        ]
+      },
+      {
+        "DisplayName": "Gold Encore Title",
+        "Value": "Encore\\UI\\SWATitle3.ini",
+        "Description": [
+          "Gold Encore Title."
+        ]
+      }
+    ],
+    "UI2": [
+      {
+        "DisplayName": "Classic Encore Title",
+        "Value": "Encore\\UI\\SUTitleC.ini",
+        "Description": [
+          "Clasic Encore Title."
+        ]
+      },
+      {
+        "DisplayName": "Golden Text Encore Title",
+        "Value": "Encore\\UI\\SUTitle1.ini",
+        "Description": [
+          "Golden Text Encore Title."
+        ]
+      },
+      {
+        "DisplayName": "Team Encore Title",
+        "Value": "Encore\\UI\\SUTitle2.ini",
+        "Description": [
+          "Team Encore Title."
+        ]
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}
