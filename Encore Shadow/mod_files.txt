@@ -1,0 +1,4 @@
+add ConfigSchema.json
+add Encore Shadow.dll
+add encore_shadow.ini
+add mod.ini
