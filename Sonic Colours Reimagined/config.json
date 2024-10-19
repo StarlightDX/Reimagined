@@ -1,0 +1,33 @@
+{
+  "Groups": [
+    {
+      "Name": "CPKs",
+      "DisplayName": "Game Configuration",
+      "Elements": [
+        {
+          "Name": "StagePack",
+          "DisplayName": "Stage Pack",
+          "Description": [
+            "Choose which stage pack to use for Sonic Colours: Reimagined."
+          ],
+          "Type": "StagePack",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Rainbow\\Index\\texturepack_rso.index"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "StagePack": [
+      {
+        "DisplayName": "Sonic Colours Project",
+        "Value": "Rainbow\\Index\\texturepack_rso.index",
+        "Description": [
+          "The default option."
+        ]
+      }
+    ]
+  },
+  "iniFile": "mod.ini"
+}
